@@ -1,0 +1,5 @@
+{
+  "base_model": "google/codegemma-2b",
+  "revision": null,
+  "adapter_source": "codegemma_2b_lora_multilang"
+}

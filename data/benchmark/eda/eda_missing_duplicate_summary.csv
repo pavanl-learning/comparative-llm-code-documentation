@@ -1,0 +1,4 @@
+language,records,missing_code,missing_doc,very_short_doc,duplicate_code,duplicate_doc,duplicate_code_doc_pair
+java,5000,0,0,108,0,271,0
+javascript,5000,0,0,111,0,39,0
+python,5000,0,0,41,0,21,0

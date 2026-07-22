@@ -1,0 +1,32 @@
+{
+  "gate": {
+    "status": "PASS",
+    "checks": {
+      "source_baseline": "PASS",
+      "authoritative_integrity": "PASS",
+      "condition_count": "PASS",
+      "row_counts": "PASS",
+      "sample_id_alignment": "PASS",
+      "traceability": "PASS",
+      "markdown_links": "PASS",
+      "private_scan": "PASS",
+      "required_root_navigation": "PASS",
+      "drawio_geometry": "PASS",
+      "large_files": "PASS",
+      "structured_files": "PASS"
+    },
+    "generated_at_utc": "2026-07-22T16:53:48.651129+00:00",
+    "file_count": 2167,
+    "directory_count": 797,
+    "size_bytes": 182569045,
+    "size_mb": 174.111,
+    "large_files_100mb_or_more": []
+  },
+  "git": {
+    "git_initialized": true,
+    "staged_file_count": 2167,
+    "staged_size_mb": 174.112,
+    "status": "staged"
+  },
+  "target_repository": "code-documentation-using-llms-research-companion"
+}

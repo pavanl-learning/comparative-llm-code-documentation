@@ -1,0 +1,30 @@
+{
+  "condition_id": "gemma_2_2b_it__java__fs",
+  "model": {
+    "slug": "gemma_2_2b_it",
+    "display_name": "Gemma 2 2B IT",
+    "group": "open-source",
+    "category": "open_source_base",
+    "provider_or_source": "Hugging Face"
+  },
+  "language": "java",
+  "prompt": {
+    "regime": "FS",
+    "template_id": "P1_few_shot",
+    "shared_prompt_path": "prompts/core_400/java/fs/prompt_input_400.jsonl"
+  },
+  "execution": {
+    "script_path": "scripts/generation/run_generation_hf.py",
+    "command_path": "command.txt",
+    "sample_count": 400,
+    "status": "final_retained"
+  },
+  "artifacts": {
+    "raw_generation": "experiments/core_400/gemma_2_2b_it/java/fs/generation/raw_generations.jsonl",
+    "automatic_detailed": "experiments/core_400/gemma_2_2b_it/java/fs/assessment/automatic_detailed.jsonl",
+    "automatic_summary": "experiments/core_400/gemma_2_2b_it/java/fs/assessment/automatic_summary.json",
+    "code_grounded_detailed": "experiments/core_400/gemma_2_2b_it/java/fs/assessment/code_grounded_detailed.jsonl",
+    "code_grounded_summary": "experiments/core_400/gemma_2_2b_it/java/fs/assessment/code_grounded_summary.json"
+  },
+  "validation_status": "PASS"
+}

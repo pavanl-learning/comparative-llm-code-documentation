@@ -1,0 +1,40 @@
+{
+  "condition_id": "gemini_3_flash__java__zs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/commercial-new/gemini_3_flash_preview_P1_zero_shot_java_400_v1.jsonl",
+      "public_path": "experiments/core_400/gemini_3_flash/java/zs/generation/raw_generations.jsonl",
+      "source_sha256": "adc0d60be8d4967253b477284617543fcb056a24365646ee58712554a74d892e",
+      "public_sha256": "adc0d60be8d4967253b477284617543fcb056a24365646ee58712554a74d892e"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gemini_3_flash_preview_P1_zero_shot_java_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/gemini_3_flash/java/zs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "de956290b5a58b43f157df005775a6fd65252b25b0b0b94ac49e1f849640d4aa",
+      "public_sha256": "de956290b5a58b43f157df005775a6fd65252b25b0b0b94ac49e1f849640d4aa"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gemini_3_flash_preview_P1_zero_shot_java_400_v1_summary.json",
+      "public_path": "experiments/core_400/gemini_3_flash/java/zs/assessment/automatic_summary.json",
+      "source_sha256": "0b0f9372437e053b1eff4ec37276125a1264edeacbe67f0a1c2e45633b1bf20a",
+      "public_sha256": "0b0f9372437e053b1eff4ec37276125a1264edeacbe67f0a1c2e45633b1bf20a"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/correctness/gemini_3_flash_preview_P1_zero_shot_java_400_v1_correctness.json_detailed.jsonl",
+      "public_path": "experiments/core_400/gemini_3_flash/java/zs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "4b4fa0b8dc9886f7315e46f35952264f3cd25cfc25588281254158368b97b00a",
+      "public_sha256": "4b4fa0b8dc9886f7315e46f35952264f3cd25cfc25588281254158368b97b00a"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/correctness/gemini_3_flash_preview_P1_zero_shot_java_400_v1_correctness.json_summary.json",
+      "public_path": "experiments/core_400/gemini_3_flash/java/zs/assessment/code_grounded_summary.json",
+      "source_sha256": "5a590ae4eed4e8b09483ed00ac9a2804c8d0fe09e0c4af6d00b7c4e910a6264c",
+      "public_sha256": "5a590ae4eed4e8b09483ed00ac9a2804c8d0fe09e0c4af6d00b7c4e910a6264c"
+    }
+  ]
+}

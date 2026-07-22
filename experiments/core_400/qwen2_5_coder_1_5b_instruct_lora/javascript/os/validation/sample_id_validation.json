@@ -1,0 +1,8 @@
+{
+  "raw_unique": 400,
+  "automatic_unique": 400,
+  "code_grounded_unique": 400,
+  "raw_equals_automatic": true,
+  "raw_equals_code_grounded": true,
+  "status": "PASS"
+}

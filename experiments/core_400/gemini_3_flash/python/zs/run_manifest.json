@@ -1,0 +1,30 @@
+{
+  "condition_id": "gemini_3_flash__python__zs",
+  "model": {
+    "slug": "gemini_3_flash",
+    "display_name": "Gemini 3 Flash Preview",
+    "group": "commercial-new",
+    "category": "commercial_api",
+    "provider_or_source": "Google Gemini API"
+  },
+  "language": "python",
+  "prompt": {
+    "regime": "ZS",
+    "template_id": "P1_zero_shot",
+    "shared_prompt_path": "prompts/core_400/python/zs/prompt_input_400.jsonl"
+  },
+  "execution": {
+    "script_path": "scripts/generation/run_generation_gemini.py",
+    "command_path": "command.txt",
+    "sample_count": 400,
+    "status": "final_retained"
+  },
+  "artifacts": {
+    "raw_generation": "experiments/core_400/gemini_3_flash/python/zs/generation/raw_generations.jsonl",
+    "automatic_detailed": "experiments/core_400/gemini_3_flash/python/zs/assessment/automatic_detailed.jsonl",
+    "automatic_summary": "experiments/core_400/gemini_3_flash/python/zs/assessment/automatic_summary.json",
+    "code_grounded_detailed": "experiments/core_400/gemini_3_flash/python/zs/assessment/code_grounded_detailed.jsonl",
+    "code_grounded_summary": "experiments/core_400/gemini_3_flash/python/zs/assessment/code_grounded_summary.json"
+  },
+  "validation_status": "PASS"
+}

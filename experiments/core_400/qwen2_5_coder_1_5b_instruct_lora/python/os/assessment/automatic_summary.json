@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/open-source-fine-tuned/qwen25_coder_1_5b_lora_multilang/qwen25_coder_1_5b_instruct_lora_multilang_P1_one_shot_python_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "qwen25_coder_1_5b_instruct_lora_multilang",
+  "prompt_template_id": "OS",
+  "mean_latency_seconds": 5.4231515,
+  "mean_generated_word_count": 19.8925,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.026548134196130575,
+  "mean_rouge1_fmeasure": 0.2933415003892646,
+  "mean_rouge2_fmeasure": 0.09192574264993894,
+  "mean_rougeL_fmeasure": 0.24388267901262392,
+  "mean_bertscore_f1": 0.8677225314080715,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "python": {
+      "num_samples": 400,
+      "mean_latency_seconds": 5.4231515,
+      "mean_generated_word_count": 19.8925,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.026548134196130575,
+      "mean_rouge1_fmeasure": 0.2933415003892646,
+      "mean_rouge2_fmeasure": 0.09192574264993894,
+      "mean_rougeL_fmeasure": 0.24388267901262392,
+      "mean_bertscore_f1": 0.8677225314080715,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

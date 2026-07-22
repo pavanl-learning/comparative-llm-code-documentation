@@ -1,0 +1,8 @@
+flowchart TD
+  A[Raw generation JSONL] --> B[Automatic lexical evaluation]
+  A --> C[Code-grounded evaluation]
+  B --> D[BLEU, ROUGE-L, BERTScore, length and latency]
+  C --> E[Parameter, return, exception, omission and hallucination checks]
+  D --> F[Summary JSON and detailed JSONL]
+  E --> F
+  F --> G[Final 108-row result table]

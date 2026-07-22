@@ -1,0 +1,5 @@
+{
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": null,
+  "adapter_source": "qwen25_1_5b_instruct_lora_multilang"
+}

@@ -1,0 +1,4 @@
+path,finding,blocking,rationale
+experiments/core_400/qwen2_5_coder_1_5b_instruct_lora/javascript/zs/assessment/automatic_detailed.jsonl,unix_user_path_literal_in_preserved_model_output,false,Preserved raw/detailed scientific evidence; not a credential or evaluator-local path.
+experiments/core_400/qwen2_5_coder_1_5b_instruct_lora/javascript/zs/assessment/code_grounded_detailed.jsonl,unix_user_path_literal_in_preserved_model_output,false,Preserved raw/detailed scientific evidence; not a credential or evaluator-local path.
+experiments/core_400/qwen2_5_coder_1_5b_instruct_lora/javascript/zs/generation/raw_generations.jsonl,unix_user_path_literal_in_preserved_model_output,false,Preserved raw/detailed scientific evidence; not a credential or evaluator-local path.

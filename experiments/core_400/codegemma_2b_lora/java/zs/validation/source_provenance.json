@@ -1,0 +1,40 @@
+{
+  "condition_id": "codegemma_2b_lora__java__zs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/open-source-fine-tuned/codegemma_2b_lora_multilang/codegemma_2b_lora_multilang_P1_zero_shot_java_400_v1.jsonl",
+      "public_path": "experiments/core_400/codegemma_2b_lora/java/zs/generation/raw_generations.jsonl",
+      "source_sha256": "08e219f66a40518c7c8ceca0c762bf7c5b5984ca2bd6831123a603c9d28f01fc",
+      "public_sha256": "08e219f66a40518c7c8ceca0c762bf7c5b5984ca2bd6831123a603c9d28f01fc"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-lora/_long_paths/b1cb2f4a2a43_codegemma_2b_lora_multilang_P1_zero_shot_java_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/codegemma_2b_lora/java/zs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "884cbc2eb03819afea5c04535f9bda60f957b7b8db303213f1320629856844a9",
+      "public_sha256": "884cbc2eb03819afea5c04535f9bda60f957b7b8db303213f1320629856844a9"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-lora/_long_paths/270741d35bb9_codegemma_2b_lora_multilang_P1_zero_shot_java_400_v1_summary.json",
+      "public_path": "experiments/core_400/codegemma_2b_lora/java/zs/assessment/automatic_summary.json",
+      "source_sha256": "ad6cc2fe2e66d3f59b8a99b8da87adcadb3671516d4b5236235fe8ab728e7215",
+      "public_sha256": "ad6cc2fe2e66d3f59b8a99b8da87adcadb3671516d4b5236235fe8ab728e7215"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-lora/_long_paths/4540f2b9759a_codegemma_2b_lora_multilang_P1_zero_shot_java_400_v1_code_grounded_detailed.jsonl",
+      "public_path": "experiments/core_400/codegemma_2b_lora/java/zs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "1a15a8843d07ac38f5215b0f78d8d579c095460f087295e256d7f70f1114106c",
+      "public_sha256": "1a15a8843d07ac38f5215b0f78d8d579c095460f087295e256d7f70f1114106c"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-lora/_long_paths/3e1aadbf72d2_codegemma_2b_lora_multilang_P1_zero_shot_java_400_v1_code_grounded_summary.json",
+      "public_path": "experiments/core_400/codegemma_2b_lora/java/zs/assessment/code_grounded_summary.json",
+      "source_sha256": "a43d789e923617daf65a0f1d7eb30ff8c7637882c885ad3b288965e8a806c9d6",
+      "public_sha256": "a43d789e923617daf65a0f1d7eb30ff8c7637882c885ad3b288965e8a806c9d6"
+    }
+  ]
+}

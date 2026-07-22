@@ -1,0 +1,40 @@
+{
+  "condition_id": "codegemma_2b__java__os",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/open-source/codegemma_2b_P1_one_shot_java_400_v1.jsonl",
+      "public_path": "experiments/core_400/codegemma_2b/java/os/generation/raw_generations.jsonl",
+      "source_sha256": "c2d4b1096244186cfe66786ee4149d46c273e7168d85b027bab8c8dfa84d488d",
+      "public_sha256": "c2d4b1096244186cfe66786ee4149d46c273e7168d85b027bab8c8dfa84d488d"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/codegemma_2b_P1_one_shot_java_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/codegemma_2b/java/os/assessment/automatic_detailed.jsonl",
+      "source_sha256": "208e55ca4ead8302c9fba0b414671e70fad7418fb079cd165202a5a85323eaf0",
+      "public_sha256": "208e55ca4ead8302c9fba0b414671e70fad7418fb079cd165202a5a85323eaf0"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/codegemma_2b_P1_one_shot_java_400_v1_summary.json",
+      "public_path": "experiments/core_400/codegemma_2b/java/os/assessment/automatic_summary.json",
+      "source_sha256": "fb93da3e1707406a8bb40fc7812d2d4a9d3500ae2d9eff88f7fe55d244e257b5",
+      "public_sha256": "fb93da3e1707406a8bb40fc7812d2d4a9d3500ae2d9eff88f7fe55d244e257b5"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/correctness/codegemma_2b_P1_one_shot_java_400_v1_correctness.json_detailed.jsonl",
+      "public_path": "experiments/core_400/codegemma_2b/java/os/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "713ced3f94f6b680d53c5c1ce42ef32b8fdb005bd6b5aa5bc141cd52a93e7433",
+      "public_sha256": "713ced3f94f6b680d53c5c1ce42ef32b8fdb005bd6b5aa5bc141cd52a93e7433"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/correctness/codegemma_2b_P1_one_shot_java_400_v1_correctness.json_summary.json",
+      "public_path": "experiments/core_400/codegemma_2b/java/os/assessment/code_grounded_summary.json",
+      "source_sha256": "05b1b8fa2c8b968254f9c3a5712f5fe31b67d7279f6bf779879245ff90489472",
+      "public_sha256": "05b1b8fa2c8b968254f9c3a5712f5fe31b67d7279f6bf779879245ff90489472"
+    }
+  ]
+}

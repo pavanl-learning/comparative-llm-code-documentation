@@ -1,0 +1,34 @@
+{
+  "input_file": "outputs/raw_generations/open-source-fine-tuned/codegemma_2b_lora_multilang/codegemma_2b_lora_multilang_P1_few_shot_python_400_v1.jsonl",
+  "source_file": "data/processed/prompted_shots/P1_few_shot_python_400.jsonl",
+  "num_samples": 400,
+  "model_name": "codegemma_2b_lora_multilang",
+  "prompt_template_id": "FS",
+  "samples_with_code": 400,
+  "samples_with_parse_failures": 6,
+  "samples_with_expected_parameters": 312,
+  "samples_with_expected_return": 274,
+  "samples_with_expected_exceptions": 64,
+  "mean_parameter_coverage": 0.40523504273504274,
+  "mean_return_coverage": 0.28102189781021897,
+  "mean_exception_coverage": 0.015625,
+  "mean_omission_rate": 0.6435041598114374,
+  "hallucination_sample_rate": 0.025,
+  "mean_hallucination_count": 0.025,
+  "per_language": {
+    "python": {
+      "num_samples": 400,
+      "samples_with_code": 400,
+      "samples_with_parse_failures": 6,
+      "samples_with_expected_parameters": 312,
+      "samples_with_expected_return": 274,
+      "samples_with_expected_exceptions": 64,
+      "mean_parameter_coverage": 0.40523504273504274,
+      "mean_return_coverage": 0.28102189781021897,
+      "mean_exception_coverage": 0.015625,
+      "mean_omission_rate": 0.6435041598114374,
+      "hallucination_sample_rate": 0.025,
+      "mean_hallucination_count": 0.025
+    }
+  }
+}

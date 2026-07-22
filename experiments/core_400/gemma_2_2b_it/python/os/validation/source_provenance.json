@@ -1,0 +1,40 @@
+{
+  "condition_id": "gemma_2_2b_it__python__os",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/open-source/gemma_2_2b_it_P1_one_shot_python_400_v1.jsonl",
+      "public_path": "experiments/core_400/gemma_2_2b_it/python/os/generation/raw_generations.jsonl",
+      "source_sha256": "14af18e16f792dbe8346cc9ef62ede7b70aac7fc9641f87d89f5a41484199fad",
+      "public_sha256": "14af18e16f792dbe8346cc9ef62ede7b70aac7fc9641f87d89f5a41484199fad"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/gemma_2_2b_it_P1_one_shot_python_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/gemma_2_2b_it/python/os/assessment/automatic_detailed.jsonl",
+      "source_sha256": "5c8545bd67d97011a1addfa29d8d6639642879a09711a0dfc0102fb617eac6b4",
+      "public_sha256": "5c8545bd67d97011a1addfa29d8d6639642879a09711a0dfc0102fb617eac6b4"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/gemma_2_2b_it_P1_one_shot_python_400_v1_summary.json",
+      "public_path": "experiments/core_400/gemma_2_2b_it/python/os/assessment/automatic_summary.json",
+      "source_sha256": "bbe1462d7aab6833cd39728d5b4aa707fad91fc1b28de3cbac460296d526dfd1",
+      "public_sha256": "bbe1462d7aab6833cd39728d5b4aa707fad91fc1b28de3cbac460296d526dfd1"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/correctness/gemma_2_2b_it_P1_one_shot_python_400_v1_correctness.json_detailed.jsonl",
+      "public_path": "experiments/core_400/gemma_2_2b_it/python/os/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "6100c0748c15a5c023e3fc861120d9634416f2bc3a64e1c57907affab8bff111",
+      "public_sha256": "6100c0748c15a5c023e3fc861120d9634416f2bc3a64e1c57907affab8bff111"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/correctness/gemma_2_2b_it_P1_one_shot_python_400_v1_correctness.json_summary.json",
+      "public_path": "experiments/core_400/gemma_2_2b_it/python/os/assessment/code_grounded_summary.json",
+      "source_sha256": "c6b013cee68a51322b7c3bd92d0fb65322142b381aaf766d007ef151d03a03eb",
+      "public_sha256": "c6b013cee68a51322b7c3bd92d0fb65322142b381aaf766d007ef151d03a03eb"
+    }
+  ]
+}

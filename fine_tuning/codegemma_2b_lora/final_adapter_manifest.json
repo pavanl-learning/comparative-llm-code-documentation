@@ -1,0 +1,39 @@
+{
+  "model_slug": "codegemma_2b_lora",
+  "adapter_source_bundle": "codegemma_2b_lora_multilang",
+  "base_model": "google/codegemma-2b",
+  "ordinary_git_status": "adapter_binary_not_copied",
+  "availability": "private archive or optional release after licence and size review",
+  "files": [
+    {
+      "filename": "adapter_config.json",
+      "sha256": "4728aa83dc45f39f0b77b9de269d296086df5896271a29f4cb77589daf9c6750",
+      "size_bytes": 1097,
+      "public_status": "included_as_lora_config_json"
+    },
+    {
+      "filename": "adapter_model.safetensors",
+      "sha256": "c9eebe462e11de89561d2f88f030114ac2d543428bb0a75b41175b1389c74ffd",
+      "size_bytes": 39256456,
+      "public_status": "optional_release_not_in_ordinary_git"
+    },
+    {
+      "filename": "training_args.bin",
+      "sha256": "403b20d2e227ba2130020e1a255aa39d0bb0fad7b2c1255389e72c6d3c87369a",
+      "size_bytes": 5329,
+      "public_status": "referenced_by_checksum_binary_not_in_ordinary_git"
+    },
+    {
+      "filename": "tokenizer.json",
+      "sha256": "83d1a3e50bab7af7cffdab543ccf7ae59e629c8481a5f58dbcd4073c7d65d74b",
+      "size_bytes": 34362914,
+      "public_status": "referenced_by_checksum_not_copied"
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "sha256": "d5989ec2fe6c1f81cdf0649cdadd8a8449bab630e694ea3f15970524ec8953f5",
+      "size_bytes": 442,
+      "public_status": "referenced_by_checksum_not_copied"
+    }
+  ]
+}

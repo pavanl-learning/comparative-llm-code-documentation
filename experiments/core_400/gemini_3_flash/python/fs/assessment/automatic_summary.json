@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/commercial-new/gemini_3_flash_preview_P1_few_shot_python_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "gemini-3-flash-preview",
+  "prompt_template_id": "FS",
+  "mean_latency_seconds": 8.9982195,
+  "mean_generated_word_count": 16.6425,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.022933222593401068,
+  "mean_rouge1_fmeasure": 0.30886150671097523,
+  "mean_rouge2_fmeasure": 0.08612365090258463,
+  "mean_rougeL_fmeasure": 0.25300800093626474,
+  "mean_bertscore_f1": 0.8672042596340179,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "python": {
+      "num_samples": 400,
+      "mean_latency_seconds": 8.9982195,
+      "mean_generated_word_count": 16.6425,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.022933222593401068,
+      "mean_rouge1_fmeasure": 0.30886150671097523,
+      "mean_rouge2_fmeasure": 0.08612365090258463,
+      "mean_rougeL_fmeasure": 0.25300800093626474,
+      "mean_bertscore_f1": 0.8672042596340179,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

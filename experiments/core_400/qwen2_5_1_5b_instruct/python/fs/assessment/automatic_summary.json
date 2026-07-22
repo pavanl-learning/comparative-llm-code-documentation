@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/qwen25_1_5b_instruct_P1_few_shot_python_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+  "prompt_template_id": "FS",
+  "mean_latency_seconds": 12.9435535,
+  "mean_generated_word_count": 15.9075,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.020211965691265526,
+  "mean_rouge1_fmeasure": 0.2729398914055325,
+  "mean_rouge2_fmeasure": 0.07256238074783972,
+  "mean_rougeL_fmeasure": 0.2292034303603151,
+  "mean_bertscore_f1": 0.8644246731698513,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "python": {
+      "num_samples": 400,
+      "mean_latency_seconds": 12.9435535,
+      "mean_generated_word_count": 15.9075,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.020211965691265526,
+      "mean_rouge1_fmeasure": 0.2729398914055325,
+      "mean_rouge2_fmeasure": 0.07256238074783972,
+      "mean_rougeL_fmeasure": 0.2292034303603151,
+      "mean_bertscore_f1": 0.8644246731698513,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

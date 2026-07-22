@@ -1,0 +1,40 @@
+{
+  "condition_id": "deepseek_chat_v3_2__javascript__os",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/commercial-new/deepseek_chat_P1_one_shot_javascript_400_v1.jsonl",
+      "public_path": "experiments/core_400/deepseek_chat_v3_2/javascript/os/generation/raw_generations.jsonl",
+      "source_sha256": "a56a397d6858e7aa3d86b78e7ec75ccdf829273da481bc9740b34a3a80559286",
+      "public_sha256": "a56a397d6858e7aa3d86b78e7ec75ccdf829273da481bc9740b34a3a80559286"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/deepseek_chat_P1_one_shot_javascript_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/deepseek_chat_v3_2/javascript/os/assessment/automatic_detailed.jsonl",
+      "source_sha256": "f7fae25503beceb635103c23e222d0f9a501e22ab638200a1fa5f880ce07e576",
+      "public_sha256": "f7fae25503beceb635103c23e222d0f9a501e22ab638200a1fa5f880ce07e576"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/deepseek_chat_P1_one_shot_javascript_400_v1_summary.json",
+      "public_path": "experiments/core_400/deepseek_chat_v3_2/javascript/os/assessment/automatic_summary.json",
+      "source_sha256": "876c8acb41029c19c3e8597a442104daea837bf9fd6c339d3b51e2a13f63aa4b",
+      "public_sha256": "876c8acb41029c19c3e8597a442104daea837bf9fd6c339d3b51e2a13f63aa4b"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/correctness/deepseek_chat_P1_one_shot_javascript_400_v1_correctness.json_detailed.jsonl",
+      "public_path": "experiments/core_400/deepseek_chat_v3_2/javascript/os/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "e9a920e803b99ef80ddccc4a93362167f7535e405b892abedc6609ccaacc6b76",
+      "public_sha256": "e9a920e803b99ef80ddccc4a93362167f7535e405b892abedc6609ccaacc6b76"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/correctness/deepseek_chat_P1_one_shot_javascript_400_v1_correctness.json_summary.json",
+      "public_path": "experiments/core_400/deepseek_chat_v3_2/javascript/os/assessment/code_grounded_summary.json",
+      "source_sha256": "aee1ddb38efdd905f69c2aa55dcc342718b8f5c0615534d7cb4b4183be446e26",
+      "public_sha256": "aee1ddb38efdd905f69c2aa55dcc342718b8f5c0615534d7cb4b4183be446e26"
+    }
+  ]
+}

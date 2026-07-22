@@ -1,0 +1,40 @@
+{
+  "condition_id": "codegemma_2b__javascript__fs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/open-source/codegemma_2b_P1_few_shot_javascript_400_v1.jsonl",
+      "public_path": "experiments/core_400/codegemma_2b/javascript/fs/generation/raw_generations.jsonl",
+      "source_sha256": "73e82d9068f1af0acefc5462fb3fb0bb53e80829f9b8a91bcd482582ab811859",
+      "public_sha256": "73e82d9068f1af0acefc5462fb3fb0bb53e80829f9b8a91bcd482582ab811859"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/codegemma_2b_P1_few_shot_javascript_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/codegemma_2b/javascript/fs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "36559f6ad4e3a6ce12b6bc25b5f53e8b06ec458ec295de285743c99e587ad5b4",
+      "public_sha256": "36559f6ad4e3a6ce12b6bc25b5f53e8b06ec458ec295de285743c99e587ad5b4"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/codegemma_2b_P1_few_shot_javascript_400_v1_summary.json",
+      "public_path": "experiments/core_400/codegemma_2b/javascript/fs/assessment/automatic_summary.json",
+      "source_sha256": "2b668f13e67a2529a0a2b52276b684dc5a9ec8410d6b5a8ad52b30bcd3522aca",
+      "public_sha256": "2b668f13e67a2529a0a2b52276b684dc5a9ec8410d6b5a8ad52b30bcd3522aca"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/codegemma_2b_P1_few_shot_javascript_400_v1_code_grounded_detailed.jsonl",
+      "public_path": "experiments/core_400/codegemma_2b/javascript/fs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "ef5885cd9f1741edca418ec8cd9f7b22c47041f176d1d2dbbf31c04d0787f8aa",
+      "public_sha256": "ef5885cd9f1741edca418ec8cd9f7b22c47041f176d1d2dbbf31c04d0787f8aa"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/codegemma_2b_P1_few_shot_javascript_400_v1_code_grounded_summary.json",
+      "public_path": "experiments/core_400/codegemma_2b/javascript/fs/assessment/code_grounded_summary.json",
+      "source_sha256": "fab874f281d2e0192aee7fa46b49667d70edce287234d3434e66f6d0a36d15f0",
+      "public_sha256": "fab874f281d2e0192aee7fa46b49667d70edce287234d3434e66f6d0a36d15f0"
+    }
+  ]
+}

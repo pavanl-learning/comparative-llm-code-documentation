@@ -1,0 +1,40 @@
+{
+  "condition_id": "qwen2_5_coder_1_5b_instruct__java__os",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/open-source/qwen25_coder_1_5b_instruct_P1_one_shot_java_400_v2_rerun.jsonl",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct/java/os/generation/raw_generations.jsonl",
+      "source_sha256": "c97ba65e82204d98831420977ecb1bd2040f1824a01acc6793516594252f8981",
+      "public_sha256": "c97ba65e82204d98831420977ecb1bd2040f1824a01acc6793516594252f8981"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/qwen25_coder_1_5b_instruct_P1_one_shot_java_400_v2_rerun_detailed.jsonl",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct/java/os/assessment/automatic_detailed.jsonl",
+      "source_sha256": "f9e4bca052dd8bee7f6c0d775a36572fd92cd3e829ff45fa9bee4c7877e7ea52",
+      "public_sha256": "f9e4bca052dd8bee7f6c0d775a36572fd92cd3e829ff45fa9bee4c7877e7ea52"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/qwen25_coder_1_5b_instruct_P1_one_shot_java_400_v2_rerun_summary.json",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct/java/os/assessment/automatic_summary.json",
+      "source_sha256": "4fd6a2f891f7e94ebcad8bd65fc02e8fc9e95c296776e6351ca6fdb2f4f7741f",
+      "public_sha256": "4fd6a2f891f7e94ebcad8bd65fc02e8fc9e95c296776e6351ca6fdb2f4f7741f"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/correctness/qwen25_coder_1_5b_instruct_P1_one_shot_java_400_v2_rerun_correctness.json_detailed.jsonl",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct/java/os/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "054e7eb62262be7f54ea066bbff8e39a4fdb143522d9e4c413278bc0bcc4e187",
+      "public_sha256": "054e7eb62262be7f54ea066bbff8e39a4fdb143522d9e4c413278bc0bcc4e187"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/correctness/qwen25_coder_1_5b_instruct_P1_one_shot_java_400_v2_rerun_correctness.json_summary.json",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct/java/os/assessment/code_grounded_summary.json",
+      "source_sha256": "ba52eaba565935e3ce5292696769b13699ac3ba39b8b7703c8f1ff0cf121e30d",
+      "public_sha256": "ba52eaba565935e3ce5292696769b13699ac3ba39b8b7703c8f1ff0cf121e30d"
+    }
+  ]
+}

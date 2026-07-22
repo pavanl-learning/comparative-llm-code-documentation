@@ -1,0 +1,30 @@
+{
+  "condition_id": "gemma_2_2b_it_lora__python__fs",
+  "model": {
+    "slug": "gemma_2_2b_it_lora",
+    "display_name": "Gemma 2 2B IT LoRA Multilingual",
+    "group": "open-source-fine-tuned",
+    "category": "lora_fine_tuned",
+    "provider_or_source": "PEFT LoRA adapter over Hugging Face base model"
+  },
+  "language": "python",
+  "prompt": {
+    "regime": "FS",
+    "template_id": "P1_few_shot",
+    "shared_prompt_path": "prompts/core_400/python/fs/prompt_input_400.jsonl"
+  },
+  "execution": {
+    "script_path": "scripts/generation/run_finetuned_generation.py",
+    "command_path": "command.txt",
+    "sample_count": 400,
+    "status": "final_retained"
+  },
+  "artifacts": {
+    "raw_generation": "experiments/core_400/gemma_2_2b_it_lora/python/fs/generation/raw_generations.jsonl",
+    "automatic_detailed": "experiments/core_400/gemma_2_2b_it_lora/python/fs/assessment/automatic_detailed.jsonl",
+    "automatic_summary": "experiments/core_400/gemma_2_2b_it_lora/python/fs/assessment/automatic_summary.json",
+    "code_grounded_detailed": "experiments/core_400/gemma_2_2b_it_lora/python/fs/assessment/code_grounded_detailed.jsonl",
+    "code_grounded_summary": "experiments/core_400/gemma_2_2b_it_lora/python/fs/assessment/code_grounded_summary.json"
+  },
+  "validation_status": "PASS"
+}

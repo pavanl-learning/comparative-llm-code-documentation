@@ -1,0 +1,40 @@
+{
+  "condition_id": "gpt_5_1__python__zs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/commercial-new/gpt_5_1_P1_zero_shot_python_400_v2.jsonl",
+      "public_path": "experiments/core_400/gpt_5_1/python/zs/generation/raw_generations.jsonl",
+      "source_sha256": "f4971c24cdbf9aa35ceae07cedc9d2e83d5ac035ee7ea4fa112f830c136b7ffa",
+      "public_sha256": "f4971c24cdbf9aa35ceae07cedc9d2e83d5ac035ee7ea4fa112f830c136b7ffa"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gpt_5_1_P1_zero_shot_python_400_v2_detailed.jsonl",
+      "public_path": "experiments/core_400/gpt_5_1/python/zs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "521d32e6b8cce6a521e3ab2149ff2f93b9649845c17151c7cdad74fb5c966e7b",
+      "public_sha256": "521d32e6b8cce6a521e3ab2149ff2f93b9649845c17151c7cdad74fb5c966e7b"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gpt_5_1_P1_zero_shot_python_400_v2_summary.json",
+      "public_path": "experiments/core_400/gpt_5_1/python/zs/assessment/automatic_summary.json",
+      "source_sha256": "357070ece98dd2b0dfa348df9c2286a9cb44c184f5f4bbf3f17791e3c86729a6",
+      "public_sha256": "357070ece98dd2b0dfa348df9c2286a9cb44c184f5f4bbf3f17791e3c86729a6"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/correctness/gpt_5_1_P1_zero_shot_python_400_v2_correctness.json_detailed.jsonl",
+      "public_path": "experiments/core_400/gpt_5_1/python/zs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "941fc2f44d7661940a0eb8840d11a6594d24e5e8bea4412c7e586176b4eaff9e",
+      "public_sha256": "941fc2f44d7661940a0eb8840d11a6594d24e5e8bea4412c7e586176b4eaff9e"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/correctness/gpt_5_1_P1_zero_shot_python_400_v2_correctness.json_summary.json",
+      "public_path": "experiments/core_400/gpt_5_1/python/zs/assessment/code_grounded_summary.json",
+      "source_sha256": "6d8c858c86e8bced64da6fc65ab5f92c8600d05032f484cc20819f815ff1bbb2",
+      "public_sha256": "6d8c858c86e8bced64da6fc65ab5f92c8600d05032f484cc20819f815ff1bbb2"
+    }
+  ]
+}

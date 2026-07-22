@@ -1,0 +1,4 @@
+language,records,avg_parameter_count,median_parameter_count,records_with_parameters,records_with_return,parameter_record_rate,return_record_rate
+java,5000,1.511,1.0,4101,3579,0.8202,0.7158
+javascript,5000,1.183,1.0,3041,3591,0.6082,0.7182
+python,5000,1.576,1.0,3855,3703,0.771,0.7406

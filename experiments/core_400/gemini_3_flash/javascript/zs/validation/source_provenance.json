@@ -1,0 +1,40 @@
+{
+  "condition_id": "gemini_3_flash__javascript__zs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/commercial-new/gemini_3_flash_preview_P1_zero_shot_javascript_400_v1.jsonl",
+      "public_path": "experiments/core_400/gemini_3_flash/javascript/zs/generation/raw_generations.jsonl",
+      "source_sha256": "bbecdb432e1786fe0ab64e1fb2a02a430c3798a888f1c6cef71788ab849c815b",
+      "public_sha256": "bbecdb432e1786fe0ab64e1fb2a02a430c3798a888f1c6cef71788ab849c815b"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gemini_3_flash_preview_P1_zero_shot_javascript_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/gemini_3_flash/javascript/zs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "ab840f851a8c0a99fec8f1a344c9362c39369c06e40dd7fee55be12dcc190058",
+      "public_sha256": "ab840f851a8c0a99fec8f1a344c9362c39369c06e40dd7fee55be12dcc190058"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gemini_3_flash_preview_P1_zero_shot_javascript_400_v1_summary.json",
+      "public_path": "experiments/core_400/gemini_3_flash/javascript/zs/assessment/automatic_summary.json",
+      "source_sha256": "a584a09f4924154085577058321de2b1b0cf16fd8ea8225404dccbaebbb9318c",
+      "public_sha256": "a584a09f4924154085577058321de2b1b0cf16fd8ea8225404dccbaebbb9318c"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/correctness/gemini_3_flash_preview_P1_zero_shot_javascript_400_v1_correctness.json_detailed.jsonl",
+      "public_path": "experiments/core_400/gemini_3_flash/javascript/zs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "bdb45cf6b86963f628dde39ca893bec80e057bd497fc88c9e9765dd8dfdd845a",
+      "public_sha256": "bdb45cf6b86963f628dde39ca893bec80e057bd497fc88c9e9765dd8dfdd845a"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/correctness/gemini_3_flash_preview_P1_zero_shot_javascript_400_v1_correctness.json_summary.json",
+      "public_path": "experiments/core_400/gemini_3_flash/javascript/zs/assessment/code_grounded_summary.json",
+      "source_sha256": "8590339755a5649b2cab45ab6fcc300b243110bcc873554e14f096f8fb7638c1",
+      "public_sha256": "8590339755a5649b2cab45ab6fcc300b243110bcc873554e14f096f8fb7638c1"
+    }
+  ]
+}

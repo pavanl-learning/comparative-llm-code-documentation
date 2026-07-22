@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/open-source-fine-tuned/codegemma_2b_lora_multilang/codegemma_2b_lora_multilang_P1_zero_shot_python_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "codegemma_2b_lora_multilang",
+  "prompt_template_id": "ZS",
+  "mean_latency_seconds": 3.5647985,
+  "mean_generated_word_count": 15.8525,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.03559576401140621,
+  "mean_rouge1_fmeasure": 0.3363907653937795,
+  "mean_rouge2_fmeasure": 0.12379257729265368,
+  "mean_rougeL_fmeasure": 0.2891896851187682,
+  "mean_bertscore_f1": 0.8719871978461743,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "python": {
+      "num_samples": 400,
+      "mean_latency_seconds": 3.5647985,
+      "mean_generated_word_count": 15.8525,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.03559576401140621,
+      "mean_rouge1_fmeasure": 0.3363907653937795,
+      "mean_rouge2_fmeasure": 0.12379257729265368,
+      "mean_rougeL_fmeasure": 0.2891896851187682,
+      "mean_bertscore_f1": 0.8719871978461743,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "base_model": "google/gemma-2-2b-it",
+  "revision": null,
+  "adapter_source": "gemma_2_2b_it_lora_multilang"
+}

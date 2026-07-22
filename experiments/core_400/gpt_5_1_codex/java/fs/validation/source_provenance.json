@@ -1,0 +1,40 @@
+{
+  "condition_id": "gpt_5_1_codex__java__fs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/gpt_5_1_codex_P1_few_shot_java_400_v1.jsonl",
+      "public_path": "experiments/core_400/gpt_5_1_codex/java/fs/generation/raw_generations.jsonl",
+      "source_sha256": "0cfc5076ec41780c00ef898585559f965949b2eb1944e46d739f0ff3415777fc",
+      "public_sha256": "0cfc5076ec41780c00ef898585559f965949b2eb1944e46d739f0ff3415777fc"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gpt_5_1_codex_P1_few_shot_java_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/gpt_5_1_codex/java/fs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "1fbe38962552f05800039ac7a291bbc0327a4ca4561a48c831b559443769c34c",
+      "public_sha256": "1fbe38962552f05800039ac7a291bbc0327a4ca4561a48c831b559443769c34c"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gpt_5_1_codex_P1_few_shot_java_400_v1_summary.json",
+      "public_path": "experiments/core_400/gpt_5_1_codex/java/fs/assessment/automatic_summary.json",
+      "source_sha256": "67231db824685d3903c1f2767b25b53fa753ed930d1226882c992e303b8cd11f",
+      "public_sha256": "67231db824685d3903c1f2767b25b53fa753ed930d1226882c992e303b8cd11f"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gpt_5_1_codex_P1_few_shot_java_400_v1_code_grounded_detailed.jsonl",
+      "public_path": "experiments/core_400/gpt_5_1_codex/java/fs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "683d1f47b3bac75c72fcadca78977cd48b2aa3e9197b276f632a839f92919585",
+      "public_sha256": "683d1f47b3bac75c72fcadca78977cd48b2aa3e9197b276f632a839f92919585"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gpt_5_1_codex_P1_few_shot_java_400_v1_code_grounded_summary.json",
+      "public_path": "experiments/core_400/gpt_5_1_codex/java/fs/assessment/code_grounded_summary.json",
+      "source_sha256": "3799776499f887d94c00aed88129ca8b96b83ac1302d6977a37a537e8242c5f9",
+      "public_sha256": "3799776499f887d94c00aed88129ca8b96b83ac1302d6977a37a537e8242c5f9"
+    }
+  ]
+}

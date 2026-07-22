@@ -1,0 +1,40 @@
+{
+  "condition_id": "deepseek_chat_v3_2__javascript__fs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/commercial-new/deepseek_chat_P1_few_shot_javascript_400_v1.jsonl",
+      "public_path": "experiments/core_400/deepseek_chat_v3_2/javascript/fs/generation/raw_generations.jsonl",
+      "source_sha256": "7d348408773403a67f7ab3e815371466524b7e27f29e9ae7ccad436bdbaa0962",
+      "public_sha256": "7d348408773403a67f7ab3e815371466524b7e27f29e9ae7ccad436bdbaa0962"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/deepseek_chat_P1_few_shot_javascript_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/deepseek_chat_v3_2/javascript/fs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "7cd6f217d12bbd8f51e6a0df9e506dd4612a87fcf30cbd9f72e2152ecaa435e9",
+      "public_sha256": "7cd6f217d12bbd8f51e6a0df9e506dd4612a87fcf30cbd9f72e2152ecaa435e9"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/deepseek_chat_P1_few_shot_javascript_400_v1_summary.json",
+      "public_path": "experiments/core_400/deepseek_chat_v3_2/javascript/fs/assessment/automatic_summary.json",
+      "source_sha256": "7b098a143ae41c03a4e8d4f77f23264690d03dcac7b93e1b8bfb90de30838ea6",
+      "public_sha256": "7b098a143ae41c03a4e8d4f77f23264690d03dcac7b93e1b8bfb90de30838ea6"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/deepseek_chat_P1_few_shot_javascript_400_v1_code_grounded_detailed.jsonl",
+      "public_path": "experiments/core_400/deepseek_chat_v3_2/javascript/fs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "090e03aff1e03274768e41c2a071eb84dd5ddcbee9b73e64204d7b3c59bdb1f9",
+      "public_sha256": "090e03aff1e03274768e41c2a071eb84dd5ddcbee9b73e64204d7b3c59bdb1f9"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/deepseek_chat_P1_few_shot_javascript_400_v1_code_grounded_summary.json",
+      "public_path": "experiments/core_400/deepseek_chat_v3_2/javascript/fs/assessment/code_grounded_summary.json",
+      "source_sha256": "57f305456e6761ecbc5321d3a7647100ae574dccc8b961ea463550354e855487",
+      "public_sha256": "57f305456e6761ecbc5321d3a7647100ae574dccc8b961ea463550354e855487"
+    }
+  ]
+}

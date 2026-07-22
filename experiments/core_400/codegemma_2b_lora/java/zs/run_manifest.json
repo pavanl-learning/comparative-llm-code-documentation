@@ -1,0 +1,30 @@
+{
+  "condition_id": "codegemma_2b_lora__java__zs",
+  "model": {
+    "slug": "codegemma_2b_lora",
+    "display_name": "CodeGemma 2B LoRA Multilingual",
+    "group": "open-source-fine-tuned",
+    "category": "lora_fine_tuned",
+    "provider_or_source": "PEFT LoRA adapter over Hugging Face base model"
+  },
+  "language": "java",
+  "prompt": {
+    "regime": "ZS",
+    "template_id": "P1_zero_shot",
+    "shared_prompt_path": "prompts/core_400/java/zs/prompt_input_400.jsonl"
+  },
+  "execution": {
+    "script_path": "scripts/generation/run_finetuned_generation.py",
+    "command_path": "command.txt",
+    "sample_count": 400,
+    "status": "final_retained"
+  },
+  "artifacts": {
+    "raw_generation": "experiments/core_400/codegemma_2b_lora/java/zs/generation/raw_generations.jsonl",
+    "automatic_detailed": "experiments/core_400/codegemma_2b_lora/java/zs/assessment/automatic_detailed.jsonl",
+    "automatic_summary": "experiments/core_400/codegemma_2b_lora/java/zs/assessment/automatic_summary.json",
+    "code_grounded_detailed": "experiments/core_400/codegemma_2b_lora/java/zs/assessment/code_grounded_detailed.jsonl",
+    "code_grounded_summary": "experiments/core_400/codegemma_2b_lora/java/zs/assessment/code_grounded_summary.json"
+  },
+  "validation_status": "PASS"
+}

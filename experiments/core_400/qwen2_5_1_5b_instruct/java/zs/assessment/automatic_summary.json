@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/qwen25_1_5b_instruct_P1_zero_shot_java_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+  "prompt_template_id": "ZS",
+  "mean_latency_seconds": 5.43427075,
+  "mean_generated_word_count": 15,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.015678292408489468,
+  "mean_rouge1_fmeasure": 0.24327598772841588,
+  "mean_rouge2_fmeasure": 0.058814114990213044,
+  "mean_rougeL_fmeasure": 0.2008592805376787,
+  "mean_bertscore_f1": 0.8549104008078575,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "java": {
+      "num_samples": 400,
+      "mean_latency_seconds": 5.43427075,
+      "mean_generated_word_count": 15,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.015678292408489468,
+      "mean_rouge1_fmeasure": 0.24327598772841588,
+      "mean_rouge2_fmeasure": 0.058814114990213044,
+      "mean_rougeL_fmeasure": 0.2008592805376787,
+      "mean_bertscore_f1": 0.8549104008078575,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "raw_generation": 400,
+  "automatic_detailed": 400,
+  "code_grounded_detailed": 400,
+  "expected": 400,
+  "status": "PASS"
+}

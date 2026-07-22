@@ -1,0 +1,40 @@
+{
+  "condition_id": "gemma_2_2b_it__python__fs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/open-source/gemma_2_2b_it_P1_few_shot_python_400_v1.jsonl",
+      "public_path": "experiments/core_400/gemma_2_2b_it/python/fs/generation/raw_generations.jsonl",
+      "source_sha256": "160877038964c434474547fd938660b13f0a1ed7524aa57476c2c379bca55ce5",
+      "public_sha256": "160877038964c434474547fd938660b13f0a1ed7524aa57476c2c379bca55ce5"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/gemma_2_2b_it_P1_few_shot_python_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/gemma_2_2b_it/python/fs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "fdd82dcc040c238df733e6734ee5d9ee7252c868d28e93088195b5e2282a9dd8",
+      "public_sha256": "fdd82dcc040c238df733e6734ee5d9ee7252c868d28e93088195b5e2282a9dd8"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/gemma_2_2b_it_P1_few_shot_python_400_v1_summary.json",
+      "public_path": "experiments/core_400/gemma_2_2b_it/python/fs/assessment/automatic_summary.json",
+      "source_sha256": "66b63abeb57b640bee1fa3e8e395877e766da14a00cbd6aadeb7fcef6c95c204",
+      "public_sha256": "66b63abeb57b640bee1fa3e8e395877e766da14a00cbd6aadeb7fcef6c95c204"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/gemma_2_2b_it_P1_few_shot_python_400_v1_code_grounded_detailed.jsonl",
+      "public_path": "experiments/core_400/gemma_2_2b_it/python/fs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "42886a979dc5858b1d7006c67dc65234e0529bf2f5cac4101aaa0e87b5c969ee",
+      "public_sha256": "42886a979dc5858b1d7006c67dc65234e0529bf2f5cac4101aaa0e87b5c969ee"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/gemma_2_2b_it_P1_few_shot_python_400_v1_code_grounded_summary.json",
+      "public_path": "experiments/core_400/gemma_2_2b_it/python/fs/assessment/code_grounded_summary.json",
+      "source_sha256": "a8408132b7a8b22566d817e34e1fef6deabd668252df7f0440dda168a63943bd",
+      "public_sha256": "a8408132b7a8b22566d817e34e1fef6deabd668252df7f0440dda168a63943bd"
+    }
+  ]
+}

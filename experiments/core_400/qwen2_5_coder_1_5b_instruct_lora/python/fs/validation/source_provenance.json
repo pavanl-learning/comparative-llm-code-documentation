@@ -1,0 +1,40 @@
+{
+  "condition_id": "qwen2_5_coder_1_5b_instruct_lora__python__fs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/open-source-fine-tuned/qwen25_coder_1_5b_lora_multilang/qwen25_coder_1_5b_instruct_lora_multilang_P1_few_shot_python_400_v1.jsonl",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct_lora/python/fs/generation/raw_generations.jsonl",
+      "source_sha256": "cb4e3f1b734f234ac9505df87f87b642506042fdf0f0617af206622ea0886b8b",
+      "public_sha256": "cb4e3f1b734f234ac9505df87f87b642506042fdf0f0617af206622ea0886b8b"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/evaluation-and-correctness-may2026/open-source-fine-tuned/qwen25_coder_1_5b_lora_multilang/qwen25_coder_1_5b_instruct_lora_multilang_P1_few_shot_python_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct_lora/python/fs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "22415a58b1ff17aaa2a038f0542d0bcd89861d5d8c058de04e202b80bd8be065",
+      "public_sha256": "22415a58b1ff17aaa2a038f0542d0bcd89861d5d8c058de04e202b80bd8be065"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-lora/_long_paths/4bf3ff8b1b15_qwen25_coder_1_5b_instruct_lora_multilang_P1_few_shot_python_400_v1_summary.json",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct_lora/python/fs/assessment/automatic_summary.json",
+      "source_sha256": "6fabe27b685091b77e6dd6e6921ab625ea9f5551184124f91f10ca658745e3f6",
+      "public_sha256": "6fabe27b685091b77e6dd6e6921ab625ea9f5551184124f91f10ca658745e3f6"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-lora/correctness/qwen25_coder_1_5b_instruct_lora_multilang_P1_few_shot_python_400_v1_correctness_detailed.jsonl",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct_lora/python/fs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "d7d371ece32714a349d52b46feafaa57be1f21a5f2492e323d308174537b4351",
+      "public_sha256": "d7d371ece32714a349d52b46feafaa57be1f21a5f2492e323d308174537b4351"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-lora/correctness/qwen25_coder_1_5b_instruct_lora_multilang_P1_few_shot_python_400_v1_correctness_summary.json",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct_lora/python/fs/assessment/code_grounded_summary.json",
+      "source_sha256": "4ceb393b71866e60915e3775383fa028a28c965b94397f52c51ab881653c87fd",
+      "public_sha256": "4ceb393b71866e60915e3775383fa028a28c965b94397f52c51ab881653c87fd"
+    }
+  ]
+}

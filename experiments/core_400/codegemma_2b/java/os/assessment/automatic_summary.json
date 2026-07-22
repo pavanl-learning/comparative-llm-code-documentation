@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/open-source/codegemma_2b_P1_one_shot_java_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "google/codegemma-2b",
+  "prompt_template_id": "OS",
+  "mean_latency_seconds": 45.67322675,
+  "mean_generated_word_count": 9.7175,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.021307831157167074,
+  "mean_rouge1_fmeasure": 0.2669674151995775,
+  "mean_rouge2_fmeasure": 0.09366131468853993,
+  "mean_rougeL_fmeasure": 0.2326505715449649,
+  "mean_bertscore_f1": 0.8602831423282623,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "java": {
+      "num_samples": 400,
+      "mean_latency_seconds": 45.67322675,
+      "mean_generated_word_count": 9.7175,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.021307831157167074,
+      "mean_rouge1_fmeasure": 0.2669674151995775,
+      "mean_rouge2_fmeasure": 0.09366131468853993,
+      "mean_rougeL_fmeasure": 0.2326505715449649,
+      "mean_bertscore_f1": 0.8602831423282623,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

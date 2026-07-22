@@ -1,0 +1,30 @@
+{
+  "condition_id": "qwen2_5_1_5b_instruct_lora__java__os",
+  "model": {
+    "slug": "qwen2_5_1_5b_instruct_lora",
+    "display_name": "Qwen2.5 1.5B Instruct LoRA Multilingual",
+    "group": "open-source-fine-tuned",
+    "category": "lora_fine_tuned",
+    "provider_or_source": "PEFT LoRA adapter over Hugging Face base model"
+  },
+  "language": "java",
+  "prompt": {
+    "regime": "OS",
+    "template_id": "P1_one_shot",
+    "shared_prompt_path": "prompts/core_400/java/os/prompt_input_400.jsonl"
+  },
+  "execution": {
+    "script_path": "scripts/generation/run_finetuned_generation.py",
+    "command_path": "command.txt",
+    "sample_count": 400,
+    "status": "final_retained"
+  },
+  "artifacts": {
+    "raw_generation": "experiments/core_400/qwen2_5_1_5b_instruct_lora/java/os/generation/raw_generations.jsonl",
+    "automatic_detailed": "experiments/core_400/qwen2_5_1_5b_instruct_lora/java/os/assessment/automatic_detailed.jsonl",
+    "automatic_summary": "experiments/core_400/qwen2_5_1_5b_instruct_lora/java/os/assessment/automatic_summary.json",
+    "code_grounded_detailed": "experiments/core_400/qwen2_5_1_5b_instruct_lora/java/os/assessment/code_grounded_detailed.jsonl",
+    "code_grounded_summary": "experiments/core_400/qwen2_5_1_5b_instruct_lora/java/os/assessment/code_grounded_summary.json"
+  },
+  "validation_status": "PASS"
+}

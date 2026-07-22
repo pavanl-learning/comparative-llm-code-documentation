@@ -1,0 +1,7 @@
+flowchart TD
+  A[Fine-tuning split construction] --> B[4-bit base-model loading]
+  B --> C[LoRA configuration]
+  C --> D[Training arguments and logs]
+  D --> E[Adapter manifest and binary checksum records]
+  E --> F[Adapter inference commands]
+  F --> G[Matched base-versus-LoRA evidence]

@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/qwen25_coder_1_5b_instruct_P1_zero_shot_javascript_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "prompt_template_id": "ZS",
+  "mean_latency_seconds": 11.08954325,
+  "mean_generated_word_count": 47.11,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.011503332373874136,
+  "mean_rouge1_fmeasure": 0.21622010779806958,
+  "mean_rouge2_fmeasure": 0.040846389731096035,
+  "mean_rougeL_fmeasure": 0.15943529546311516,
+  "mean_bertscore_f1": 0.839091916680336,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "javascript": {
+      "num_samples": 400,
+      "mean_latency_seconds": 11.08954325,
+      "mean_generated_word_count": 47.11,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.011503332373874136,
+      "mean_rouge1_fmeasure": 0.21622010779806958,
+      "mean_rouge2_fmeasure": 0.040846389731096035,
+      "mean_rougeL_fmeasure": 0.15943529546311516,
+      "mean_bertscore_f1": 0.839091916680336,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

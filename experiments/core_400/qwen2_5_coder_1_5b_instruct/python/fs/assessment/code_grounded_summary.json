@@ -1,0 +1,34 @@
+{
+  "input_file": "outputs/raw_generations/qwen25_coder_1_5b_instruct_P1_few_shot_python_400_v1.jsonl",
+  "source_file": "data/processed/prompted_shots/P1_few_shot_python_400.jsonl",
+  "num_samples": 400,
+  "model_name": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "prompt_template_id": "FS",
+  "samples_with_code": 400,
+  "samples_with_parse_failures": 6,
+  "samples_with_expected_parameters": 312,
+  "samples_with_expected_return": 274,
+  "samples_with_expected_exceptions": 64,
+  "mean_parameter_coverage": 0.44097985347985347,
+  "mean_return_coverage": 0.34306569343065696,
+  "mean_exception_coverage": 0.015625,
+  "mean_omission_rate": 0.6011715149181457,
+  "hallucination_sample_rate": 0.03,
+  "mean_hallucination_count": 0.03,
+  "per_language": {
+    "python": {
+      "num_samples": 400,
+      "samples_with_code": 400,
+      "samples_with_parse_failures": 6,
+      "samples_with_expected_parameters": 312,
+      "samples_with_expected_return": 274,
+      "samples_with_expected_exceptions": 64,
+      "mean_parameter_coverage": 0.44097985347985347,
+      "mean_return_coverage": 0.34306569343065696,
+      "mean_exception_coverage": 0.015625,
+      "mean_omission_rate": 0.6011715149181457,
+      "hallucination_sample_rate": 0.03,
+      "mean_hallucination_count": 0.03
+    }
+  }
+}

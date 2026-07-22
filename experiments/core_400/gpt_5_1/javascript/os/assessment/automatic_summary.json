@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/commercial-new/gpt_5_1_P1_one_shot_javascript_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "gpt-5.1",
+  "prompt_template_id": "OS",
+  "mean_latency_seconds": null,
+  "mean_generated_word_count": 20.7375,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.018349654122859955,
+  "mean_rouge1_fmeasure": 0.26075046158911963,
+  "mean_rouge2_fmeasure": 0.053697802821594386,
+  "mean_rougeL_fmeasure": 0.20416871584244212,
+  "mean_bertscore_f1": 0.847860434949398,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "javascript": {
+      "num_samples": 400,
+      "mean_latency_seconds": null,
+      "mean_generated_word_count": 20.7375,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.018349654122859955,
+      "mean_rouge1_fmeasure": 0.26075046158911963,
+      "mean_rouge2_fmeasure": 0.053697802821594386,
+      "mean_rougeL_fmeasure": 0.20416871584244212,
+      "mean_bertscore_f1": 0.847860434949398,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

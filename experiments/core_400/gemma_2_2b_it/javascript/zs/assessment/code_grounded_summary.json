@@ -1,0 +1,34 @@
+{
+  "input_file": "outputs/raw_generations/open-source/gemma_2_2b_it_P1_zero_shot_javascript_400_v2.jsonl",
+  "source_file": "data/processed/prompted_shots/P1_zero_shot_javascript_400_ZS.jsonl",
+  "num_samples": 400,
+  "model_name": "google/gemma-2-2b-it",
+  "prompt_template_id": "ZS",
+  "samples_with_code": 400,
+  "samples_with_parse_failures": 0,
+  "samples_with_expected_parameters": 343,
+  "samples_with_expected_return": 271,
+  "samples_with_expected_exceptions": 26,
+  "mean_parameter_coverage": 0.4068351149983803,
+  "mean_return_coverage": 0.3247232472324723,
+  "mean_exception_coverage": 0.11538461538461539,
+  "mean_omission_rate": 0.629237037037037,
+  "hallucination_sample_rate": 0.0175,
+  "mean_hallucination_count": 0.0175,
+  "per_language": {
+    "javascript": {
+      "num_samples": 400,
+      "samples_with_code": 400,
+      "samples_with_parse_failures": 0,
+      "samples_with_expected_parameters": 343,
+      "samples_with_expected_return": 271,
+      "samples_with_expected_exceptions": 26,
+      "mean_parameter_coverage": 0.4068351149983803,
+      "mean_return_coverage": 0.3247232472324723,
+      "mean_exception_coverage": 0.11538461538461539,
+      "mean_omission_rate": 0.629237037037037,
+      "hallucination_sample_rate": 0.0175,
+      "mean_hallucination_count": 0.0175
+    }
+  }
+}

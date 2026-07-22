@@ -1,0 +1,40 @@
+{
+  "model_slug": "qwen2_5_coder_1_5b_instruct_lora",
+  "bundle_source": "qwen25_coder_1_5b_lora_multilang",
+  "base_model": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "datasets": [
+    {
+      "source_relative_path": "transfer_bundle/data/finetune/train_3000_multilang.jsonl",
+      "sha256": "2ad601b66827211333e3afcdec433b9d5bd38e9ed532d30d48bb0a30a96742b8",
+      "size_bytes": 7077308,
+      "row_count": 3000,
+      "public_status": "referenced_by_checksum"
+    },
+    {
+      "source_relative_path": "transfer_bundle/data/finetune/valid_300_multilang.jsonl",
+      "sha256": "533b7058f76562f9d17596dd41e4d77b6ada527ff876f283222e35ea876515fa",
+      "size_bytes": 668530,
+      "row_count": 300,
+      "public_status": "referenced_by_checksum"
+    },
+    {
+      "source_relative_path": "transfer_bundle/data/finetune/smoke_24_multilang.jsonl",
+      "sha256": "ffae564536fa2fae75c00f2cf0956bf17a1ee49895569881f49b5befe0e5b1da",
+      "size_bytes": 53607,
+      "row_count": 24,
+      "public_status": "referenced_by_checksum"
+    }
+  ],
+  "training_arguments": {
+    "max_length": 1024,
+    "per_device_train_batch_size": 2,
+    "per_device_eval_batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "learning_rate": 0.0002,
+    "num_train_epochs": 2.0,
+    "warmup_ratio": 0.03,
+    "weight_decay": 0.01,
+    "logging_steps": 10,
+    "load_in_4bit": true
+  }
+}

@@ -1,0 +1,16 @@
+# Result Table Catalogue
+
+- [results/final/clean_full_results.csv](results/final/clean_full_results.csv)
+- [results/final/family_language_prompt_averages.csv](results/final/family_language_prompt_averages.csv)
+- [results/final/final_prompt_run_details.csv](results/final/final_prompt_run_details.csv)
+- [results/final/final_report_run_details.md](results/final/final_report_run_details.md)
+- [results/final/java_full_comparison.csv](results/final/java_full_comparison.csv)
+- [results/final/javascript_full_comparison.csv](results/final/javascript_full_comparison.csv)
+- [results/final/language_level_averages.csv](results/final/language_level_averages.csv)
+- [results/final/language_prompt_averages.csv](results/final/language_prompt_averages.csv)
+- [results/final/model_level_averages.csv](results/final/model_level_averages.csv)
+- [results/final/prompt_level_averages.csv](results/final/prompt_level_averages.csv)
+- [results/final/python_full_comparison.csv](results/final/python_full_comparison.csv)
+- [results/final/thesis_ready_main_table.csv](results/final/thesis_ready_main_table.csv)
+- [results/final/top10_models_per_language_by_coverage.csv](results/final/top10_models_per_language_by_coverage.csv)
+- [results/final/zero_value_row_audit.csv](results/final/zero_value_row_audit.csv)

@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/open-source/gemma_2_2b_it_P1_zero_shot_javascript_400_v2.jsonl",
+  "num_samples": 400,
+  "model_name": "google/gemma-2-2b-it",
+  "prompt_template_id": "ZS",
+  "mean_latency_seconds": 12.898348,
+  "mean_generated_word_count": 22.78,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.01597756250758806,
+  "mean_rouge1_fmeasure": 0.23757668986413485,
+  "mean_rouge2_fmeasure": 0.048183264327565936,
+  "mean_rougeL_fmeasure": 0.18262180036776315,
+  "mean_bertscore_f1": 0.8503931112587452,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "javascript": {
+      "num_samples": 400,
+      "mean_latency_seconds": 12.898348,
+      "mean_generated_word_count": 22.78,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.01597756250758806,
+      "mean_rouge1_fmeasure": 0.23757668986413485,
+      "mean_rouge2_fmeasure": 0.048183264327565936,
+      "mean_rougeL_fmeasure": 0.18262180036776315,
+      "mean_bertscore_f1": 0.8503931112587452,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

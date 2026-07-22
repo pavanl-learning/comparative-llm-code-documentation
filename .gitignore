@@ -1,0 +1,21 @@
+# Local execution artefacts
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Model and cache artefacts
+*.safetensors
+*.bin
+*.pt
+*.pth
+checkpoint-*/
+.cache/
+huggingface/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

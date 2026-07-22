@@ -1,0 +1,31 @@
+{
+  "input_file": "C:\\Pavan\\Documents\\Personal\\Upgrad\\CodeSearchNetExecution\\dissertation-llm-docs\\outputs\\raw_generations\\open-source-fine-tuned\\qwen25_coder_1_5b_lora_multilang\\qwen25_coder_1_5b_instruct_lora_multilang_P1_few_shot_javascript_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "qwen25_coder_1_5b_instruct_lora_multilang",
+  "prompt_template_id": "FS",
+  "mean_latency_seconds": 5.408268,
+  "mean_generated_word_count": 19.6925,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.024367494904909182,
+  "mean_rouge1_fmeasure": 0.27542931553711153,
+  "mean_rouge2_fmeasure": 0.08861878532393185,
+  "mean_rougeL_fmeasure": 0.22869909057945154,
+  "mean_bertscore_f1": 0.8551075328886509,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "javascript": {
+      "num_samples": 400,
+      "mean_latency_seconds": 5.408268,
+      "mean_generated_word_count": 19.6925,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.024367494904909182,
+      "mean_rouge1_fmeasure": 0.27542931553711153,
+      "mean_rouge2_fmeasure": 0.08861878532393185,
+      "mean_rougeL_fmeasure": 0.22869909057945154,
+      "mean_bertscore_f1": 0.8551075328886509,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

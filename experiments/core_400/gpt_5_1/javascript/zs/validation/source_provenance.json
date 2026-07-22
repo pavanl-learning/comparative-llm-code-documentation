@@ -1,0 +1,40 @@
+{
+  "condition_id": "gpt_5_1__javascript__zs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/commercial-new/gpt_5_1_P1_zero_shot_javascript_400_v1.jsonl",
+      "public_path": "experiments/core_400/gpt_5_1/javascript/zs/generation/raw_generations.jsonl",
+      "source_sha256": "0622dfaf11805d6ec0d3223ac725e6700273b58453245cab764d254582da2ae9",
+      "public_sha256": "0622dfaf11805d6ec0d3223ac725e6700273b58453245cab764d254582da2ae9"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gpt_5_1_P1_zero_shot_javascript_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/gpt_5_1/javascript/zs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "74db78980ba2cf9973d9d97a8676cb91f68d1c9006950837e5207363276f3641",
+      "public_sha256": "74db78980ba2cf9973d9d97a8676cb91f68d1c9006950837e5207363276f3641"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gpt_5_1_P1_zero_shot_javascript_400_v1_summary.json",
+      "public_path": "experiments/core_400/gpt_5_1/javascript/zs/assessment/automatic_summary.json",
+      "source_sha256": "23bd6e690c0cb87df00e1dac238efcd176aaaaebb7b333d5b7b54412d1846c80",
+      "public_sha256": "23bd6e690c0cb87df00e1dac238efcd176aaaaebb7b333d5b7b54412d1846c80"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/correctness/gpt_5_1_P1_zero_shot_javascript_400_v1_correctness.json_detailed.jsonl",
+      "public_path": "experiments/core_400/gpt_5_1/javascript/zs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "5b0bd19246c7d6453563ce8c417fccdb330a17b1284a3bcdfffe73b27c26ec77",
+      "public_sha256": "5b0bd19246c7d6453563ce8c417fccdb330a17b1284a3bcdfffe73b27c26ec77"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/correctness/gpt_5_1_P1_zero_shot_javascript_400_v1_correctness.json_summary.json",
+      "public_path": "experiments/core_400/gpt_5_1/javascript/zs/assessment/code_grounded_summary.json",
+      "source_sha256": "08192aef3c9db68e2dabdf191e6f840ab80799c31bb329ebf1d8d49e8041c07e",
+      "public_sha256": "08192aef3c9db68e2dabdf191e6f840ab80799c31bb329ebf1d8d49e8041c07e"
+    }
+  ]
+}

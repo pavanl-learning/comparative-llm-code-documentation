@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/open-source/qwen25_coder_1_5b_instruct_P1_one_shot_java_400_v2_rerun.jsonl",
+  "num_samples": 400,
+  "model_name": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "prompt_template_id": "OS",
+  "mean_latency_seconds": 45.36852075,
+  "mean_generated_word_count": 25.1025,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.0238419782130182,
+  "mean_rouge1_fmeasure": 0.2716894789273776,
+  "mean_rouge2_fmeasure": 0.0768318241445614,
+  "mean_rougeL_fmeasure": 0.2187801523572979,
+  "mean_bertscore_f1": 0.8540765762329101,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "java": {
+      "num_samples": 400,
+      "mean_latency_seconds": 45.36852075,
+      "mean_generated_word_count": 25.1025,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.0238419782130182,
+      "mean_rouge1_fmeasure": 0.2716894789273776,
+      "mean_rouge2_fmeasure": 0.0768318241445614,
+      "mean_rougeL_fmeasure": 0.2187801523572979,
+      "mean_bertscore_f1": 0.8540765762329101,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

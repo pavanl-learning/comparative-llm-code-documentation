@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/commercial-new/gemini_3_flash_preview_P1_one_shot_java_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "gemini-3-flash-preview",
+  "prompt_template_id": "OS",
+  "mean_latency_seconds": 12.2256925,
+  "mean_generated_word_count": 19.52,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.028864078864372922,
+  "mean_rouge1_fmeasure": 0.29833680698211285,
+  "mean_rouge2_fmeasure": 0.09843025676532123,
+  "mean_rougeL_fmeasure": 0.24718767693786278,
+  "mean_bertscore_f1": 0.8615545406937599,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "java": {
+      "num_samples": 400,
+      "mean_latency_seconds": 12.2256925,
+      "mean_generated_word_count": 19.52,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.028864078864372922,
+      "mean_rouge1_fmeasure": 0.29833680698211285,
+      "mean_rouge2_fmeasure": 0.09843025676532123,
+      "mean_rougeL_fmeasure": 0.24718767693786278,
+      "mean_bertscore_f1": 0.8615545406937599,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

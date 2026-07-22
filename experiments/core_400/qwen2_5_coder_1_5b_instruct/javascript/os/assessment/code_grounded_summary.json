@@ -1,0 +1,34 @@
+{
+  "input_file": "outputs/raw_generations/qwen25_coder_1_5b_instruct_P1_one_shot_javascript_400_v3_repaired.jsonl",
+  "source_file": "data/processed/prompted_shots/P1_one_shot_javascript_400.jsonl",
+  "num_samples": 400,
+  "model_name": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "prompt_template_id": "OS",
+  "samples_with_code": 400,
+  "samples_with_parse_failures": 0,
+  "samples_with_expected_parameters": 343,
+  "samples_with_expected_return": 271,
+  "samples_with_expected_exceptions": 26,
+  "mean_parameter_coverage": 0.33741496598639453,
+  "mean_return_coverage": 0.18450184501845018,
+  "mean_exception_coverage": 0.07692307692307693,
+  "mean_omission_rate": 0.7103555555555555,
+  "hallucination_sample_rate": 0.0075,
+  "mean_hallucination_count": 0.0075,
+  "per_language": {
+    "javascript": {
+      "num_samples": 400,
+      "samples_with_code": 400,
+      "samples_with_parse_failures": 0,
+      "samples_with_expected_parameters": 343,
+      "samples_with_expected_return": 271,
+      "samples_with_expected_exceptions": 26,
+      "mean_parameter_coverage": 0.33741496598639453,
+      "mean_return_coverage": 0.18450184501845018,
+      "mean_exception_coverage": 0.07692307692307693,
+      "mean_omission_rate": 0.7103555555555555,
+      "hallucination_sample_rate": 0.0075,
+      "mean_hallucination_count": 0.0075
+    }
+  }
+}

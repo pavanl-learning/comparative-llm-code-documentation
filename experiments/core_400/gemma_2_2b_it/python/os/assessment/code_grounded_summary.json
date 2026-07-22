@@ -1,0 +1,34 @@
+{
+  "input_file": "outputs/raw_generations/gemma_2_2b_it_P1_one_shot_python_400_v1.jsonl",
+  "source_file": "data/processed/prompted_shots/P1_one_shot_python_400.jsonl",
+  "num_samples": 400,
+  "model_name": "google/gemma-2-2b-it",
+  "prompt_template_id": "OS",
+  "samples_with_code": 400,
+  "samples_with_parse_failures": 6,
+  "samples_with_expected_parameters": 312,
+  "samples_with_expected_return": 274,
+  "samples_with_expected_exceptions": 64,
+  "mean_parameter_coverage": 0.6118666056166057,
+  "mean_return_coverage": 0.21532846715328466,
+  "mean_exception_coverage": 0.0,
+  "mean_omission_rate": 0.5373496225248247,
+  "hallucination_sample_rate": 0.0125,
+  "mean_hallucination_count": 0.0125,
+  "per_language": {
+    "python": {
+      "num_samples": 400,
+      "samples_with_code": 400,
+      "samples_with_parse_failures": 6,
+      "samples_with_expected_parameters": 312,
+      "samples_with_expected_return": 274,
+      "samples_with_expected_exceptions": 64,
+      "mean_parameter_coverage": 0.6118666056166057,
+      "mean_return_coverage": 0.21532846715328466,
+      "mean_exception_coverage": 0.0,
+      "mean_omission_rate": 0.5373496225248247,
+      "hallucination_sample_rate": 0.0125,
+      "mean_hallucination_count": 0.0125
+    }
+  }
+}

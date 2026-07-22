@@ -1,0 +1,40 @@
+{
+  "condition_id": "gpt_5_1__python__fs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/commercial-new/gpt_5_1_P1_few_shot_python_400_v1.jsonl",
+      "public_path": "experiments/core_400/gpt_5_1/python/fs/generation/raw_generations.jsonl",
+      "source_sha256": "c53ae28b24213cfb91de418262af8e5e1b15c9385be9d51b7410bf9672f82ca2",
+      "public_sha256": "c53ae28b24213cfb91de418262af8e5e1b15c9385be9d51b7410bf9672f82ca2"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gpt_5_1_P1_few_shot_python_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/gpt_5_1/python/fs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "93633ff04bf4ea036c61bc096a55459a2cdca64fc0e102d2e24031ad708b68d5",
+      "public_sha256": "93633ff04bf4ea036c61bc096a55459a2cdca64fc0e102d2e24031ad708b68d5"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gpt_5_1_P1_few_shot_python_400_v1_summary.json",
+      "public_path": "experiments/core_400/gpt_5_1/python/fs/assessment/automatic_summary.json",
+      "source_sha256": "b4583b190f9a9eca320bae76ae7196da862a3925404eff9c3516180b1f1a4448",
+      "public_sha256": "b4583b190f9a9eca320bae76ae7196da862a3925404eff9c3516180b1f1a4448"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gpt_5_1_P1_few_shot_python_400_v1_code_grounded_detailed.jsonl",
+      "public_path": "experiments/core_400/gpt_5_1/python/fs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "f5dd095477a99ae1f02bc701e6ebb5d2f29520776323005ee4e58f1f1809d452",
+      "public_sha256": "f5dd095477a99ae1f02bc701e6ebb5d2f29520776323005ee4e58f1f1809d452"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gpt_5_1_P1_few_shot_python_400_v1_code_grounded_summary.json",
+      "public_path": "experiments/core_400/gpt_5_1/python/fs/assessment/code_grounded_summary.json",
+      "source_sha256": "f0125deb2f82ded3cebe57403cdbbd8b1f92ac30402dcc97b1c0fd63794db5b7",
+      "public_sha256": "f0125deb2f82ded3cebe57403cdbbd8b1f92ac30402dcc97b1c0fd63794db5b7"
+    }
+  ]
+}

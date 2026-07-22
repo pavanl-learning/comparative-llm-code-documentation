@@ -1,0 +1,40 @@
+{
+  "condition_id": "gemini_3_flash__python__os",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/commercial-new/gemini_3_flash_preview_P1_one_shot_python_400_v1.jsonl",
+      "public_path": "experiments/core_400/gemini_3_flash/python/os/generation/raw_generations.jsonl",
+      "source_sha256": "d447b4c53c17fb2459d5b68e116fb373b826d7da9b26048fda1e335d28120726",
+      "public_sha256": "d447b4c53c17fb2459d5b68e116fb373b826d7da9b26048fda1e335d28120726"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gemini_3_flash_preview_P1_one_shot_python_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/gemini_3_flash/python/os/assessment/automatic_detailed.jsonl",
+      "source_sha256": "784a9cc5b01b43c41ba6013c3e00db1115fe2f485f2eb4fa9ae1aa2d2be10429",
+      "public_sha256": "784a9cc5b01b43c41ba6013c3e00db1115fe2f485f2eb4fa9ae1aa2d2be10429"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gemini_3_flash_preview_P1_one_shot_python_400_v1_summary.json",
+      "public_path": "experiments/core_400/gemini_3_flash/python/os/assessment/automatic_summary.json",
+      "source_sha256": "715c8feea501f63c7d67ffa0ade0b3c8d0cb0839a37cf1380a3fd00048c64e9a",
+      "public_sha256": "715c8feea501f63c7d67ffa0ade0b3c8d0cb0839a37cf1380a3fd00048c64e9a"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gemini_3_flash_preview_P1_one_shot_python_400_v1_code_grounded_detailed.jsonl",
+      "public_path": "experiments/core_400/gemini_3_flash/python/os/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "25b2a885ddfd17415cbfc2faac43def9e730dcbc2d62ef1e7ea2e2b846c1f935",
+      "public_sha256": "25b2a885ddfd17415cbfc2faac43def9e730dcbc2d62ef1e7ea2e2b846c1f935"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/commercial-base/may2026/commercial-new/gemini_3_flash_preview_P1_one_shot_python_400_v1_code_grounded_summary.json",
+      "public_path": "experiments/core_400/gemini_3_flash/python/os/assessment/code_grounded_summary.json",
+      "source_sha256": "2233bde1fdcd49e93f7e2a1790b6c7c62c8a7a4b72601d0ede055cfdffc3d30a",
+      "public_sha256": "2233bde1fdcd49e93f7e2a1790b6c7c62c8a7a4b72601d0ede055cfdffc3d30a"
+    }
+  ]
+}

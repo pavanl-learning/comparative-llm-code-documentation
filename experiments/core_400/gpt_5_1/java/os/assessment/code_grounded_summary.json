@@ -1,0 +1,34 @@
+{
+  "input_file": "outputs/raw_generations/commercial-new/gpt_5_1_P1_one_shot_java_400_v1.jsonl",
+  "source_file": "data/processed/prompted_shots/P1_one_shot_java_400.jsonl",
+  "num_samples": 400,
+  "model_name": "gpt-5.1",
+  "prompt_template_id": "OS",
+  "samples_with_code": 400,
+  "samples_with_parse_failures": 0,
+  "samples_with_expected_parameters": 331,
+  "samples_with_expected_return": 260,
+  "samples_with_expected_exceptions": 137,
+  "mean_parameter_coverage": 0.4407423392317652,
+  "mean_return_coverage": 0.6961538461538461,
+  "mean_exception_coverage": 0.3248175182481752,
+  "mean_omission_rate": 0.481439674315322,
+  "hallucination_sample_rate": 0.0275,
+  "mean_hallucination_count": 0.0275,
+  "per_language": {
+    "java": {
+      "num_samples": 400,
+      "samples_with_code": 400,
+      "samples_with_parse_failures": 0,
+      "samples_with_expected_parameters": 331,
+      "samples_with_expected_return": 260,
+      "samples_with_expected_exceptions": 137,
+      "mean_parameter_coverage": 0.4407423392317652,
+      "mean_return_coverage": 0.6961538461538461,
+      "mean_exception_coverage": 0.3248175182481752,
+      "mean_omission_rate": 0.481439674315322,
+      "hallucination_sample_rate": 0.0275,
+      "mean_hallucination_count": 0.0275
+    }
+  }
+}

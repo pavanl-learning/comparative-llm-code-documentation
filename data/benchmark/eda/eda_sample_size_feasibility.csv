@@ -1,0 +1,7 @@
+candidate_sample_size_per_language,feasible_for_all_languages,java_available_valid_records,javascript_available_valid_records,python_available_valid_records
+100,True,4892,4889,4959
+200,True,4892,4889,4959
+400,True,4892,4889,4959
+800,True,4892,4889,4959
+1000,True,4892,4889,4959
+1200,True,4892,4889,4959

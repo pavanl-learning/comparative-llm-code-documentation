@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/open-source/codegemma_2b_P1_zero_shot_python_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "google/codegemma-2b",
+  "prompt_template_id": "ZS",
+  "mean_latency_seconds": 32.688937,
+  "mean_generated_word_count": 16.2025,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.0140935874234639,
+  "mean_rouge1_fmeasure": 0.2093943734204302,
+  "mean_rouge2_fmeasure": 0.059218823382114615,
+  "mean_rougeL_fmeasure": 0.16721937250093166,
+  "mean_bertscore_f1": 0.8428502051532268,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "python": {
+      "num_samples": 400,
+      "mean_latency_seconds": 32.688937,
+      "mean_generated_word_count": 16.2025,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.0140935874234639,
+      "mean_rouge1_fmeasure": 0.2093943734204302,
+      "mean_rouge2_fmeasure": 0.059218823382114615,
+      "mean_rougeL_fmeasure": 0.16721937250093166,
+      "mean_bertscore_f1": 0.8428502051532268,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

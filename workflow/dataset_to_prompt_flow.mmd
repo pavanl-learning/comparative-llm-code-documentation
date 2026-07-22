@@ -1,0 +1,10 @@
+flowchart TD
+  A[Balanced function-level samples] --> B[Remove target documentation]
+  B --> C[Resolve function names]
+  C --> D[Apply common instruction]
+  D --> E[Zero-shot prompts]
+  D --> F[One-shot prompts]
+  D --> G[Few-shot prompts]
+  E --> H[Shared prompt JSONL files]
+  F --> H
+  G --> H

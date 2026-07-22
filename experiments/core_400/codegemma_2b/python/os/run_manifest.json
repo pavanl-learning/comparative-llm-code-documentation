@@ -1,0 +1,30 @@
+{
+  "condition_id": "codegemma_2b__python__os",
+  "model": {
+    "slug": "codegemma_2b",
+    "display_name": "CodeGemma 2B",
+    "group": "open-source",
+    "category": "open_source_base",
+    "provider_or_source": "Hugging Face"
+  },
+  "language": "python",
+  "prompt": {
+    "regime": "OS",
+    "template_id": "P1_one_shot",
+    "shared_prompt_path": "prompts/core_400/python/os/prompt_input_400.jsonl"
+  },
+  "execution": {
+    "script_path": "scripts/generation/run_generation_hf.py",
+    "command_path": "command.txt",
+    "sample_count": 400,
+    "status": "final_retained"
+  },
+  "artifacts": {
+    "raw_generation": "experiments/core_400/codegemma_2b/python/os/generation/raw_generations.jsonl",
+    "automatic_detailed": "experiments/core_400/codegemma_2b/python/os/assessment/automatic_detailed.jsonl",
+    "automatic_summary": "experiments/core_400/codegemma_2b/python/os/assessment/automatic_summary.json",
+    "code_grounded_detailed": "experiments/core_400/codegemma_2b/python/os/assessment/code_grounded_detailed.jsonl",
+    "code_grounded_summary": "experiments/core_400/codegemma_2b/python/os/assessment/code_grounded_summary.json"
+  },
+  "validation_status": "PASS"
+}

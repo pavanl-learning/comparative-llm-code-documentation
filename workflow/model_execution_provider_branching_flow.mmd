@@ -1,0 +1,9 @@
+flowchart TD
+  A[Shared prompt inputs] --> B{Model group}
+  B --> C[Open-source pre-trained runners]
+  B --> D[Commercial provider runners]
+  B --> E[LoRA adapter runners]
+  C --> F[Raw generation JSONL]
+  D --> F
+  E --> F
+  F --> G[Run manifests, commands and validations]

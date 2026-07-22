@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/commercial-new/gpt_5_1_codex_P1_zero_shot_java_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "gpt-5.1-codex",
+  "prompt_template_id": "ZS",
+  "mean_latency_seconds": 2.1735114697724978,
+  "mean_generated_word_count": 18.3075,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.01857931475229734,
+  "mean_rouge1_fmeasure": 0.2668734501015473,
+  "mean_rouge2_fmeasure": 0.06681407180584419,
+  "mean_rougeL_fmeasure": 0.2158866079106866,
+  "mean_bertscore_f1": 0.8546642924672995,
+  "num_bertscore_skipped": 2,
+  "per_language": {
+    "java": {
+      "num_samples": 400,
+      "mean_latency_seconds": 2.1735114697724978,
+      "mean_generated_word_count": 18.3075,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.01857931475229734,
+      "mean_rouge1_fmeasure": 0.2668734501015473,
+      "mean_rouge2_fmeasure": 0.06681407180584419,
+      "mean_rougeL_fmeasure": 0.2158866079106866,
+      "mean_bertscore_f1": 0.8546642924672995,
+      "num_bertscore_skipped": 2
+    }
+  }
+}

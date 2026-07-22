@@ -1,0 +1,10 @@
+{
+  "source_repository": "code-documentation-using-llms-public-full-evidence",
+  "source_gate_status": "PASS",
+  "file_count": 2073,
+  "directory_count": 765,
+  "size_bytes": 178869047,
+  "size_mb": 170.583,
+  "large_files_100mb_or_more": [],
+  "generated_at_utc": "2026-07-22T16:51:41.246769+00:00"
+}

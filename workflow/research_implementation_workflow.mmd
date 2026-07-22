@@ -1,0 +1,18 @@
+flowchart TD
+  A[CodeSearchNet acquisition] --> B[Cleaning, filtering, normalisation and balancing]
+  B --> C[Exploratory analysis and sample-size diagnostics]
+  C --> D[Target-documentation removal]
+  D --> E[ZS, OS and FS prompt construction]
+  E --> F{Model execution branch}
+  F --> G[Open-source model execution]
+  F --> H[Commercial model execution]
+  F --> I[LoRA adapter inference]
+  I --> J[Generation cleaning and run-state capture]
+  G --> J
+  H --> J
+  J --> K[Automatic evaluation]
+  J --> L[Code-grounded evaluation]
+  K --> M[Human evaluation preparation and aggregation]
+  L --> M
+  M --> N[Final result assembly and validation]
+  N --> O[Chapter 5 tables, figures and discussion]

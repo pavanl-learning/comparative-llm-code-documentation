@@ -1,0 +1,45 @@
+{
+  "model_slug": "gemma_2_2b_it_lora",
+  "adapter_source_bundle": "gemma_2_2b_it_lora_multilang",
+  "base_model": "google/gemma-2-2b-it",
+  "ordinary_git_status": "adapter_binary_not_copied",
+  "availability": "private archive or optional release after licence and size review",
+  "files": [
+    {
+      "filename": "adapter_config.json",
+      "sha256": "acdcece207f6ea0049a0fa946b7c5ff83e4dcc1f32351021a00f131e6dbfb377",
+      "size_bytes": 1098,
+      "public_status": "included_as_lora_config_json"
+    },
+    {
+      "filename": "adapter_model.safetensors",
+      "sha256": "e66fc4e9b5ad9b88514d26aa3b0f1180fe880be8d34b349c9a7f5c325f9274e0",
+      "size_bytes": 41581360,
+      "public_status": "optional_release_not_in_ordinary_git"
+    },
+    {
+      "filename": "training_args.bin",
+      "sha256": "031a4f1e03697eaa640184d8357d94e3ef68989a02dac82fd60e536087435d3a",
+      "size_bytes": 5329,
+      "public_status": "referenced_by_checksum_binary_not_in_ordinary_git"
+    },
+    {
+      "filename": "tokenizer.json",
+      "sha256": "487cee8724215dcd2dde8888539e8b1bf844ceb5dbbe27f7845abda69eeb060f",
+      "size_bytes": 34362872,
+      "public_status": "referenced_by_checksum_not_copied"
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "sha256": "b2d15305cb82104c37cdd3475b11d8a5623d5cc12a0b4518571dd925e0f1ca02",
+      "size_bytes": 518,
+      "public_status": "referenced_by_checksum_not_copied"
+    },
+    {
+      "filename": "chat_template.jinja",
+      "sha256": "ecd6ae513fe103f0eb62e8ab5bfa8d0fe45c1074fa398b089c93a7e70c15cfd6",
+      "size_bytes": 591,
+      "public_status": "referenced_by_checksum_not_copied"
+    }
+  ]
+}

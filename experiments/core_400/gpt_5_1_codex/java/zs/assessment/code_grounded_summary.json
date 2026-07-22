@@ -1,0 +1,34 @@
+{
+  "input_file": "outputs/raw_generations/gpt_5_1_codex_P1_zero_shot_java_400_v1.jsonl",
+  "source_file": "data/processed/prompted_shots/P1_zero_shot_java_400_ZS.jsonl",
+  "num_samples": 400,
+  "model_name": "gpt-5.1-codex",
+  "prompt_template_id": "ZS",
+  "samples_with_code": 400,
+  "samples_with_parse_failures": 0,
+  "samples_with_expected_parameters": 331,
+  "samples_with_expected_return": 260,
+  "samples_with_expected_exceptions": 137,
+  "mean_parameter_coverage": 0.4909221694720184,
+  "mean_return_coverage": 0.5576923076923077,
+  "mean_exception_coverage": 0.22992700729927007,
+  "mean_omission_rate": 0.5130212188502344,
+  "hallucination_sample_rate": 0.02,
+  "mean_hallucination_count": 0.02,
+  "per_language": {
+    "java": {
+      "num_samples": 400,
+      "samples_with_code": 400,
+      "samples_with_parse_failures": 0,
+      "samples_with_expected_parameters": 331,
+      "samples_with_expected_return": 260,
+      "samples_with_expected_exceptions": 137,
+      "mean_parameter_coverage": 0.4909221694720184,
+      "mean_return_coverage": 0.5576923076923077,
+      "mean_exception_coverage": 0.22992700729927007,
+      "mean_omission_rate": 0.5130212188502344,
+      "hallucination_sample_rate": 0.02,
+      "mean_hallucination_count": 0.02
+    }
+  }
+}

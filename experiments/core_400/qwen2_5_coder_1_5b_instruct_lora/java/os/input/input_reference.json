@@ -1,0 +1,6 @@
+{
+  "prompt_input": "prompts/core_400/java/os/prompt_input_400.jsonl",
+  "source_prompt_artifact": "data/processed/prompted_shots/P1_one_shot_java_400.jsonl",
+  "prompt_template_id": "P1_one_shot",
+  "row_count": 400
+}

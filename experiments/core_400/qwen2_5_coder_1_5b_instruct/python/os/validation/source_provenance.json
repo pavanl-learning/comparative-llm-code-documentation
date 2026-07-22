@@ -1,0 +1,40 @@
+{
+  "condition_id": "qwen2_5_coder_1_5b_instruct__python__os",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/open-source/qwen25_coder_1_5b_instruct_P1_one_shot_python_400_v1.jsonl",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct/python/os/generation/raw_generations.jsonl",
+      "source_sha256": "61242dc8443ce9241114cbcc2edfa4caaa47a9039632430e0518c06dbcdcb46c",
+      "public_sha256": "61242dc8443ce9241114cbcc2edfa4caaa47a9039632430e0518c06dbcdcb46c"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/qwen25_coder_1_5b_instruct_P1_one_shot_python_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct/python/os/assessment/automatic_detailed.jsonl",
+      "source_sha256": "a60ad962fd0586fa756aa59795b2d6679f505b0dc9503879d99e00a143b5962d",
+      "public_sha256": "a60ad962fd0586fa756aa59795b2d6679f505b0dc9503879d99e00a143b5962d"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/qwen25_coder_1_5b_instruct_P1_one_shot_python_400_v1_summary.json",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct/python/os/assessment/automatic_summary.json",
+      "source_sha256": "57b5c1fe9e95be5967132d2013e81b47fcd0e834377d13c9aa07dff9b1a5afb2",
+      "public_sha256": "57b5c1fe9e95be5967132d2013e81b47fcd0e834377d13c9aa07dff9b1a5afb2"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/correctness/qwen25_coder_1_5b_instruct_P1_one_shot_python_400_v1_correctness.json_detailed.jsonl",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct/python/os/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "88f927ad13e556ae49efc605b672354c5ec93559eb5756a09917641df6c2e3d0",
+      "public_sha256": "88f927ad13e556ae49efc605b672354c5ec93559eb5756a09917641df6c2e3d0"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/correctness/qwen25_coder_1_5b_instruct_P1_one_shot_python_400_v1_correctness.json_summary.json",
+      "public_path": "experiments/core_400/qwen2_5_coder_1_5b_instruct/python/os/assessment/code_grounded_summary.json",
+      "source_sha256": "bc1b86d23e54590cf46e5d3d0c7d72cad9756dd055ac6140e37ffa6b00cbd669",
+      "public_sha256": "bc1b86d23e54590cf46e5d3d0c7d72cad9756dd055ac6140e37ffa6b00cbd669"
+    }
+  ]
+}

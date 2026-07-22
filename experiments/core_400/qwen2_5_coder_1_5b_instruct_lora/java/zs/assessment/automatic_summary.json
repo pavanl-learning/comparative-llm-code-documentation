@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/open-source-fine-tuned/qwen25_coder_1_5b_lora_multilang/qwen25_coder_1_5b_instruct_lora_multilang_P1_zero_shot_java_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "qwen25_coder_1_5b_instruct_lora_multilang",
+  "prompt_template_id": "ZS",
+  "mean_latency_seconds": 5.340513,
+  "mean_generated_word_count": 20.175,
+  "exact_match_accuracy": 0.0075,
+  "normalized_exact_match_accuracy": 0.0075,
+  "mean_bleu": 0.06532736546131974,
+  "mean_rouge1_fmeasure": 0.35955402333111297,
+  "mean_rouge2_fmeasure": 0.18231614992761513,
+  "mean_rougeL_fmeasure": 0.31420276634396604,
+  "mean_bertscore_f1": 0.8716915652155877,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "java": {
+      "num_samples": 400,
+      "mean_latency_seconds": 5.340513,
+      "mean_generated_word_count": 20.175,
+      "exact_match_accuracy": 0.0075,
+      "normalized_exact_match_accuracy": 0.0075,
+      "mean_bleu": 0.06532736546131974,
+      "mean_rouge1_fmeasure": 0.35955402333111297,
+      "mean_rouge2_fmeasure": 0.18231614992761513,
+      "mean_rougeL_fmeasure": 0.31420276634396604,
+      "mean_bertscore_f1": 0.8716915652155877,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

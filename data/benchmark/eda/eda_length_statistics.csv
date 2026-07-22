@@ -1,0 +1,4 @@
+language,records,code_chars_mean,code_chars_median,code_chars_p95,code_words_mean,code_lines_mean,doc_words_mean,doc_words_median,doc_words_p95,doc_lines_mean
+java,5000,465.636,311.0,1364.5,48.277,1.0,22.63,20.0,52.0,1.0
+javascript,5000,505.011,352.0,1445.0,63.884,1.0,19.694,16.0,48.0,1.0
+python,5000,588.607,452.0,1486.05,69.535,1.0,20.419,16.0,52.0,1.0

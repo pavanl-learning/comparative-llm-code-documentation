@@ -1,0 +1,31 @@
+{
+  "input_file": "outputs/raw_generations/commercial-new/deepseek_chat_P1_zero_shot_java_400_v1.jsonl",
+  "num_samples": 400,
+  "model_name": "deepseek-chat",
+  "prompt_template_id": "ZS",
+  "mean_latency_seconds": 1.64517525,
+  "mean_generated_word_count": 16.3775,
+  "exact_match_accuracy": 0,
+  "normalized_exact_match_accuracy": 0,
+  "mean_bleu": 0.02122778383722187,
+  "mean_rouge1_fmeasure": 0.27719258249196455,
+  "mean_rouge2_fmeasure": 0.07777689474084669,
+  "mean_rougeL_fmeasure": 0.22469192786775474,
+  "mean_bertscore_f1": 0.8588584141433239,
+  "num_bertscore_skipped": 0,
+  "per_language": {
+    "java": {
+      "num_samples": 400,
+      "mean_latency_seconds": 1.64517525,
+      "mean_generated_word_count": 16.3775,
+      "exact_match_accuracy": 0,
+      "normalized_exact_match_accuracy": 0,
+      "mean_bleu": 0.02122778383722187,
+      "mean_rouge1_fmeasure": 0.27719258249196455,
+      "mean_rouge2_fmeasure": 0.07777689474084669,
+      "mean_rougeL_fmeasure": 0.22469192786775474,
+      "mean_bertscore_f1": 0.8588584141433239,
+      "num_bertscore_skipped": 0
+    }
+  }
+}

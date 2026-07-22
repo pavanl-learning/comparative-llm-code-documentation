@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="476" viewBox="0 0 1200 476">
+  <rect width="1200" height="476" fill="#f8fafc"/>
+  <rect x="16" y="16" width="1168" height="444" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="24" y="36" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Representative evidence preview</text>
+  <style>.mono { font-family: Consolas, 'Courier New', monospace; font-size: 14px; fill: #1e293b; }</style>
+  <text x="24" y="54" class="mono"># Comparative Evaluation of Open-source and Commercial Large Language Models for Code Documentation</text>
+<text x="24" y="76" class="mono"></text>
+<text x="24" y="98" class="mono">This repository is an evaluator-facing research companion for the MSc dissertation implementation. It preserves the vali</text>
+<text x="24" y="120" class="mono"></text>
+<text x="24" y="142" class="mono">## Research objective</text>
+<text x="24" y="164" class="mono"></text>
+<text x="24" y="186" class="mono">The research compares open-source pre-trained, commercial pre-trained, and open-source LoRA fine-tuned large language mo</text>
+<text x="24" y="208" class="mono"></text>
+<text x="24" y="230" class="mono">## Research questions</text>
+<text x="24" y="252" class="mono"></text>
+<text x="24" y="274" class="mono">The exact thesis research-question wording was not present in the repository artefacts inspected during this build. Inse</text>
+<text x="24" y="296" class="mono"></text>
+<text x="24" y="318" class="mono">## Implementation scope</text>
+<text x="24" y="340" class="mono"></text>
+<text x="24" y="362" class="mono">The companion covers dataset preparation, exploratory analysis, prompt construction, model execution, LoRA fine-tuning e</text>
+<text x="24" y="384" class="mono"></text>
+<text x="24" y="406" class="mono">## Experimental design</text>
+<text x="24" y="428" class="mono"></text>
+</svg>

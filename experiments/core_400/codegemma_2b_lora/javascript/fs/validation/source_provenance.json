@@ -1,0 +1,40 @@
+{
+  "condition_id": "codegemma_2b_lora__javascript__fs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/open-source-fine-tuned/codegemma_2b_lora_multilang/codegemma_2b_lora_multilang_P1_few_shot_javascript_400_v1.jsonl",
+      "public_path": "experiments/core_400/codegemma_2b_lora/javascript/fs/generation/raw_generations.jsonl",
+      "source_sha256": "9da3b8e4a765de211533122c8ed754efdeffeca615a5c980c605c30cbba28c40",
+      "public_sha256": "9da3b8e4a765de211533122c8ed754efdeffeca615a5c980c605c30cbba28c40"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-lora/_long_paths/8e441d243530_codegemma_2b_lora_multilang_P1_few_shot_javascript_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/codegemma_2b_lora/javascript/fs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "a56d6260e78a53635bc1531dad2bef221f3bbcc7619c6540bf95c2723da0eb49",
+      "public_sha256": "a56d6260e78a53635bc1531dad2bef221f3bbcc7619c6540bf95c2723da0eb49"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-lora/_long_paths/1e905ee70c42_codegemma_2b_lora_multilang_P1_few_shot_javascript_400_v1_summary.json",
+      "public_path": "experiments/core_400/codegemma_2b_lora/javascript/fs/assessment/automatic_summary.json",
+      "source_sha256": "136939530425182ba8c6c0e7ea25c62234f0b62ef1b3a8a07004c3de53a0a2fa",
+      "public_sha256": "136939530425182ba8c6c0e7ea25c62234f0b62ef1b3a8a07004c3de53a0a2fa"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/evaluation-and-correctness-may2026/open-source-fine-tuned/codegemma_2b_lora_multilang/codegemma_2b_lora_multilang_P1_few_shot_javascript_400_v1_code_grounded_detailed.jsonl",
+      "public_path": "experiments/core_400/codegemma_2b_lora/javascript/fs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "0df3722416cb61941e0c0ada7d4d27aca9bfec47181bea5d0cc25539eec36d62",
+      "public_sha256": "0df3722416cb61941e0c0ada7d4d27aca9bfec47181bea5d0cc25539eec36d62"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-lora/_long_paths/95cf5347020a_codegemma_2b_lora_multilang_P1_few_shot_javascript_400_v1_code_grounded_summary.json",
+      "public_path": "experiments/core_400/codegemma_2b_lora/javascript/fs/assessment/code_grounded_summary.json",
+      "source_sha256": "e296705eed7e5773854d08164af68674d5b4b39889b7b81d744916caa5038213",
+      "public_sha256": "e296705eed7e5773854d08164af68674d5b4b39889b7b81d744916caa5038213"
+    }
+  ]
+}

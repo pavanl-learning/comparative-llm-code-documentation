@@ -1,0 +1,40 @@
+{
+  "condition_id": "gemma_2_2b_it__java__fs",
+  "artifacts": [
+    {
+      "artifact_type": "raw_generation",
+      "source_relative_path": "outputs/raw_generations/open-source/gemma_2_2b_it_P1_few_shot_java_400_v1.jsonl",
+      "public_path": "experiments/core_400/gemma_2_2b_it/java/fs/generation/raw_generations.jsonl",
+      "source_sha256": "89a72f52f991db86860b93bb023ab2d3b266968271a149daae685a86952b4034",
+      "public_sha256": "89a72f52f991db86860b93bb023ab2d3b266968271a149daae685a86952b4034"
+    },
+    {
+      "artifact_type": "automatic_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/gemma_2_2b_it_P1_few_shot_java_400_v1_detailed.jsonl",
+      "public_path": "experiments/core_400/gemma_2_2b_it/java/fs/assessment/automatic_detailed.jsonl",
+      "source_sha256": "ebb8dd90b80d70e79e51f28b6f1613f216d886376e4cf87e0c2f6956f897c6eb",
+      "public_sha256": "ebb8dd90b80d70e79e51f28b6f1613f216d886376e4cf87e0c2f6956f897c6eb"
+    },
+    {
+      "artifact_type": "automatic_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/gemma_2_2b_it_P1_few_shot_java_400_v1_summary.json",
+      "public_path": "experiments/core_400/gemma_2_2b_it/java/fs/assessment/automatic_summary.json",
+      "source_sha256": "eb5a6d2502ec9a4406a4714a13b1a2fc6e4889340be5c41b56b649d8dc5d5803",
+      "public_sha256": "eb5a6d2502ec9a4406a4714a13b1a2fc6e4889340be5c41b56b649d8dc5d5803"
+    },
+    {
+      "artifact_type": "code_grounded_detailed",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/gemma_2_2b_it_P1_few_shot_java_400_v1_code_grounded_detailed.jsonl",
+      "public_path": "experiments/core_400/gemma_2_2b_it/java/fs/assessment/code_grounded_detailed.jsonl",
+      "source_sha256": "e5e5bf5e22ae8604e45bf7c4e11cc80e7eec00406432bcc11eb660d7a7fc0b8d",
+      "public_sha256": "e5e5bf5e22ae8604e45bf7c4e11cc80e7eec00406432bcc11eb660d7a7fc0b8d"
+    },
+    {
+      "artifact_type": "code_grounded_summary",
+      "source_relative_path": "outputs/segregated_results/open-source-base/may2026/open-source/gemma_2_2b_it_P1_few_shot_java_400_v1_code_grounded_summary.json",
+      "public_path": "experiments/core_400/gemma_2_2b_it/java/fs/assessment/code_grounded_summary.json",
+      "source_sha256": "8709caf393601cdf816392cc399e84c522fca8d89d33053be7074662d87b5b2a",
+      "public_sha256": "8709caf393601cdf816392cc399e84c522fca8d89d33053be7074662d87b5b2a"
+    }
+  ]
+}

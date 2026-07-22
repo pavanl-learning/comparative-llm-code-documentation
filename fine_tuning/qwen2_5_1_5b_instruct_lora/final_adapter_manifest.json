@@ -1,0 +1,45 @@
+{
+  "model_slug": "qwen2_5_1_5b_instruct_lora",
+  "adapter_source_bundle": "qwen25_1_5b_instruct_lora_multilang",
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "ordinary_git_status": "adapter_binary_not_copied",
+  "availability": "private archive or optional release after licence and size review",
+  "files": [
+    {
+      "filename": "adapter_config.json",
+      "sha256": "d1a1e1380f4e81042b5751576f48ccb17f5f2d522635894634aff6e2330e1c48",
+      "size_bytes": 1104,
+      "public_status": "included_as_lora_config_json"
+    },
+    {
+      "filename": "adapter_model.safetensors",
+      "sha256": "67f67c4ef5f00a9fc495cd71774b40a92e1b6c35eec2e021b92c4dd0e1685df3",
+      "size_bytes": 36981072,
+      "public_status": "optional_release_not_in_ordinary_git"
+    },
+    {
+      "filename": "training_args.bin",
+      "sha256": "aa3deb623634164a25478fdfbd4610a1c376307f0f61b4719aa46a0c6fd2d1d8",
+      "size_bytes": 5329,
+      "public_status": "referenced_by_checksum_binary_not_in_ordinary_git"
+    },
+    {
+      "filename": "tokenizer.json",
+      "sha256": "c47a17a5ec1c2cdadb68a727e1fa12b6ff89fd89a67b136eda88b4c91d267714",
+      "size_bytes": 11422172,
+      "public_status": "referenced_by_checksum_not_copied"
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "sha256": "04b1682c59acbd057f4c9072297faa73d56fc9de053094c659cdb4c464f58f86",
+      "size_bytes": 694,
+      "public_status": "referenced_by_checksum_not_copied"
+    },
+    {
+      "filename": "chat_template.jinja",
+      "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+      "size_bytes": 2507,
+      "public_status": "referenced_by_checksum_not_copied"
+    }
+  ]
+}
