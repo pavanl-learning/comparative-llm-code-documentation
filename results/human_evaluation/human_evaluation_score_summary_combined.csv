@@ -1,0 +1,40 @@
+workbook,evaluator_role,Model Alias,Actual Model Name,Group,Judgments,Factual,Completeness,Clarity,Usefulness,Overall
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,M1,Gemma-2-2B,Open-source,45,3.04,2.8,4.18,3.36,3.36
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,M2,Qwen2.5-1.5B-Instruct,Open-source,45,3.09,2.84,4.18,3.33,3.33
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,M3,CodeGemma-2B,Open-source,45,3.02,2.73,3.82,3.13,3.18
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,M4,Qwen2.5-Coder-1.5B-Instruct,Open-source,25,3.32,3.2,4.32,3.56,3.56
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,M5,Gemma-2-2B-LORA,Open-source,45,3.53,3.13,4.33,3.73,3.73
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,M6,Qwen2.5-1.5B-Instruct_LORA,Open-source,45,3.24,2.93,4.24,3.49,3.49
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,M7,CodeGemma-2B_LORA,Open-source,45,3.64,3.18,4.36,3.8,3.8
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,M8,Qwen2.5-Coder-1.5B-Instruct-LORA,Open-source,45,3.27,2.98,4.36,3.58,3.58
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,M9,GPT-5.1,Commercial,45,3.18,2.8,4.16,3.4,3.4
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,M10,GPT-5.1-Codex,Commercial,45,3.09,2.73,4.22,3.36,3.36
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,M11,Gemini-3-Flash-Preview,Commercial,45,3.22,2.87,4.24,3.49,3.49
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,M12,DeepSeek-Chat-v3.2,Commercial,45,3.29,3.02,4.18,3.58,3.58
+human_evaluation_non_it_reference_comparison.xlsx,non it reference comparison,Overall Averages,,,520,3.24,2.93,4.21,3.48,3.49
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,M1,Gemma-2-2B,Open-source,45,3.49,3.6,4.18,3.64,3.64
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,M2,Qwen2.5-1.5B-Instruct,Open-source,45,3.31,3.36,4.18,3.62,3.62
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,M3,CodeGemma-2B,Open-source,45,3.4,3.56,3.87,3.44,3.56
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,M4,Qwen2.5-Coder-1.5B-Instruct,Open-source,25,3.68,4.16,4.32,3.68,3.8
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,M5,Gemma-2-2B-LORA,Open-source,45,3.93,3.87,4.47,4.07,4.07
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,M6,Qwen2.5-1.5B-Instruct_LORA,Open-source,45,3.82,3.93,4.29,3.87,3.89
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,M7,CodeGemma-2B_LORA,Open-source,45,3.87,3.87,4.44,3.91,3.91
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,M8,Qwen2.5-Coder-1.5B-Instruct-LORA,Open-source,45,3.87,3.96,4.38,3.93,4
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,M9,GPT-5.1,Commercial,45,3.78,4.02,4.16,3.82,3.84
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,M10,GPT-5.1-Codex,Commercial,45,4,4.09,4.22,4,4.04
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,M11,Gemini-3-Flash-Preview,Commercial,45,3.78,3.8,4.24,3.82,3.82
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,M12,DeepSeek-Chat-v3.2,Commercial,45,3.49,3.49,4.18,3.56,3.56
+human_evaluation_senior_software_engineer.xlsx,senior software engineer,Overall Averages,,,520,3.7,3.81,4.24,3.78,3.81
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,M1,Gemma-2-2B,Open-source,45,3.49,3.6,4.24,3.38,3.49
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,M2,Qwen2.5-1.5B-Instruct,Open-source,45,3.31,3.36,4.2,3.24,3.31
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,M3,CodeGemma-2B,Open-source,45,3.4,3.56,3.93,3.33,3.4
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,M4,Qwen2.5-Coder-1.5B-Instruct,Open-source,25,3.68,4.16,4.4,3.64,3.8
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,M5,Gemma-2-2B-LORA,Open-source,45,3.93,3.87,4.47,3.93,3.93
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,M6,Qwen2.5-1.5B-Instruct_LORA,Open-source,45,3.82,3.93,4.36,3.76,3.84
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,M7,CodeGemma-2B_LORA,Open-source,45,3.87,3.87,4.47,3.84,3.87
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,M8,Qwen2.5-Coder-1.5B-Instruct-LORA,Open-source,45,3.87,3.96,4.42,3.82,3.93
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,M9,GPT-5.1,Commercial,45,3.78,4.02,4.24,3.67,3.8
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,M10,GPT-5.1-Codex,Commercial,45,4,4.09,4.22,3.91,4.04
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,M11,Gemini-3-Flash-Preview,Commercial,45,3.78,3.8,4.27,3.71,3.78
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,M12,DeepSeek-Chat-v3.2,Commercial,45,3.49,3.49,4.2,3.42,3.49
+human_evaluation_senior_test_engineer.xlsx,senior test engineer,Overall Averages,,,520,3.7,3.81,4.28,3.64,3.72

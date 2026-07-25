@@ -1,0 +1,14 @@
+Model Alias,Actual Model Name,Group,Judgments,Factual,Completeness,Clarity,Usefulness,Overall
+M1,Gemma-2-2B,Open-source,45,3.49,3.6,4.18,3.64,3.64
+M2,Qwen2.5-1.5B-Instruct,Open-source,45,3.31,3.36,4.18,3.62,3.62
+M3,CodeGemma-2B,Open-source,45,3.4,3.56,3.87,3.44,3.56
+M4,Qwen2.5-Coder-1.5B-Instruct,Open-source,25,3.68,4.16,4.32,3.68,3.8
+M5,Gemma-2-2B-LORA,Open-source,45,3.93,3.87,4.47,4.07,4.07
+M6,Qwen2.5-1.5B-Instruct_LORA,Open-source,45,3.82,3.93,4.29,3.87,3.89
+M7,CodeGemma-2B_LORA,Open-source,45,3.87,3.87,4.44,3.91,3.91
+M8,Qwen2.5-Coder-1.5B-Instruct-LORA,Open-source,45,3.87,3.96,4.38,3.93,4
+M9,GPT-5.1,Commercial,45,3.78,4.02,4.16,3.82,3.84
+M10,GPT-5.1-Codex,Commercial,45,4,4.09,4.22,4,4.04
+M11,Gemini-3-Flash-Preview,Commercial,45,3.78,3.8,4.24,3.82,3.82
+M12,DeepSeek-Chat-v3.2,Commercial,45,3.49,3.49,4.18,3.56,3.56
+Overall Averages,,,520,3.7,3.81,4.24,3.78,3.81

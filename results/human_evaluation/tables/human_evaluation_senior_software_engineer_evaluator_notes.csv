@@ -1,0 +1,5 @@
+Topic,Note
+Evaluator role,Senior full-stack software engineer perspective.
+Scoring basis,Second-pass row-level rerun using available generated documentation and the evidence allowed for this evaluator role.
+Rubric calibration,"A score of 1 means incorrect or declined, 2 means poor but requires corrections, 3 means acceptable/useful with limitations; 4 means good with minor gaps; 5 means strong and complete for the evaluator role."
+Clarity correction,Clarity scores adjusted minimally to role-level average 4.24; raw Evaluation column L is the source.
